@@ -11395,10 +11395,6 @@ video {
   z-index: auto;
 }
 
-.csiam {
-  color: red;
-}
-
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
