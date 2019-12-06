@@ -1,22 +1,24 @@
 import React, { useMemo } from 'react';
-import twemoji from 'twemoji';
 
 type EmojiProps = {
   emojiCodes: Array<string>;
+  name: string;
+  emoji: string;
 };
-const Emoji: React.FC = ({ emojiCodes }: EmojiProps) => {
-  const convertToEmoji = () => {
-    return emojiCodes
-      .map(singleCode => {
-        return twemoji.convert.fromCodePoint(singleCode);
-      })
-      .filter(el => el !== '')
-      .join('');
-  };
-  const memoizedEmoji = useMemo(() => convertToEmoji(), [emojiCodes]);
+
+//TODO: Create lazy loading component
+const Emoji: React.FC<EmojiProps> = ({ emojiCodes, name, emoji }) => {
+  const memoizedCodes = useMemo(
+    () => emojiCodes.reduce((acc, el) => `${acc}, ${el}`),
+    [emojiCodes]
+  );
   return (
-    <span onClick={() => navigator.clipboard.writeText(memoizedEmoji)}>
-      {memoizedEmoji}
+    <span
+      onClick={() => navigator.clipboard.writeText(emoji)}
+      aria-label={name}
+    >
+      {emoji}
+      {memoizedCodes}
     </span>
   );
 };

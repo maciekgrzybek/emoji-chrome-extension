@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
+const twemoji = require('twemoji');
 const fse = require('fs-extra');
 
 const googleEmojiPages = [
@@ -76,9 +77,21 @@ async function saveEmojiJSON() {
     });
 
   const emojiPromises = await Promise.all(getEmojis());
+  emojiPromises.forEach(section => {
+    section.emojis.forEach(emojiItem => {
+      const emoji = emojiItem.code
+        .map(singleCode => {
+          return twemoji.convert.fromCodePoint(singleCode);
+        })
+        .filter(el => el !== '')
+        .join('');
+      emojiItem.emoji = emoji;
+    });
+  });
   fse.writeFileSync(
     path.resolve('./src/emoji-list.json'),
     JSON.stringify(emojiPromises)
   );
 }
+
 saveEmojiJSON();
