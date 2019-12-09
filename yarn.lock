@@ -1104,11 +1104,6 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@rooks/use-throttle@^3.4.1":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@rooks/use-throttle/-/use-throttle-3.4.2.tgz#1ae69987cf3377557ed368d407bdc234b8893b73"
-  integrity sha512-bMrnRVZuk4pjKnJ0Dh3K3Xjjkff60xqLz5Nckk7zidISOEItpw6cpKhhA0YPwF1DG3CoZF+9+d4uiwKD/LP0Rw==
-
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#8013f2af54a2b7d735f71560ff360d3a8176a87b"

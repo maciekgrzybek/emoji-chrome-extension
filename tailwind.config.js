@@ -5,7 +5,10 @@ module.exports = {
         app: '500px'
       },
       height: {
-        app: '700px'
+        app: '450px'
+      },
+      minWidth: {
+        '50': '50px'
       }
     }
   },

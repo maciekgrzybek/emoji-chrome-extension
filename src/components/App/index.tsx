@@ -8,9 +8,9 @@ const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const debouncedSearchTerm = useDebounce(searchTerm);
   return (
-    <div className="h-app w-app">
+    <div className="h-app w-app overflow-y-scroll text-3xl p-6">
       <header className="">
-        <h1>EMOJIS!sdsd</h1>
+        <h1>EMOJIS</h1>
         <input
           type="text"
           className="border-solid border-black border"

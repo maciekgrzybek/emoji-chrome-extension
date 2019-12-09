@@ -13,13 +13,15 @@ const Emoji: React.FC<EmojiProps> = ({ emojiCodes, name, emoji }) => {
     [emojiCodes]
   );
   return (
-    <span
-      onClick={() => navigator.clipboard.writeText(emoji)}
-      aria-label={name}
-    >
-      {emoji}
-      {memoizedCodes}
-    </span>
+    <div className="flex flex-col cursor-pointer px-2">
+      <span
+        onClick={() => navigator.clipboard.writeText(emoji)}
+        aria-label={name}
+      >
+        {emoji}
+      </span>
+      {/* <span className="text-gray-600 text-xs">{memoizedCodes}</span> */}
+    </div>
   );
 };
 
