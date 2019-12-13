@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 
 import { EmojiSectionType, SingleEmojiType } from '../../types';
 import Emoji from '../Emoji';
@@ -9,6 +9,7 @@ type EmojiSectionProps = {
 };
 const EmojiSection: React.FC<EmojiSectionProps> = ({ data, searchTerm }) => {
   const [filteredList, setFilteredList] = useState<Array<SingleEmojiType>>([]);
+  const categoryName = useMemo(() => data.category.split('-').join(' '), [data.category]);
   useEffect(() => {
     if (searchTerm.length > 1 || searchTerm.length === 0) {
       setFilteredList(() => {
@@ -32,12 +33,16 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({ data, searchTerm }) => {
     });
   };
 
-  return (
-    <div>
-      {filteredList.length > 0 && <h2>{data.category}</h2>}
-      <ul className="flex flex-wrap">{renderEmojis()}</ul>
-    </div>
-  );
+  if(filteredList.length > 0) {
+    return (
+        <div className="mb-5">
+          {filteredList.length > 0 && <h2 className="font-semibold text-lg mb-2 uppercase">{categoryName}</h2>}
+          <ul className="flex flex-wrap">{renderEmojis()}</ul>
+        </div>
+    );
+  }
+  return null
+
 };
 
 export default EmojiSection;
