@@ -1,16 +1,28 @@
-import React from 'react';
+import React, {
+  Dispatch,
+  Ref,
+  RefAttributes,
+  RefObject,
+  SetStateAction
+} from "react";
 
-import EmojiSection from '../EmojiSection';
-import { EmojiSectionType } from '../../types';
+import EmojiSection from "../EmojiSection";
+import { EmojiSectionType } from "../../types";
 
-type EmojiSectionsType = {
+type EmojiSectionsProps = {
   emojiList: Array<EmojiSectionType>;
   searchTerm: string;
+  currentSection: string;
+  setCurrentSection: Dispatch<SetStateAction<string>>;
+  sectionRefs: Object;
 };
 
-const EmojiSections: React.FC<EmojiSectionsType> = ({
+const EmojiSections: React.FC<EmojiSectionsProps> = ({
   emojiList,
-  searchTerm
+  searchTerm,
+  setCurrentSection,
+  currentSection,
+  sectionRefs
 }) => {
   return (
     <>
@@ -20,6 +32,9 @@ const EmojiSections: React.FC<EmojiSectionsType> = ({
             key={emojiSection.category}
             data={emojiSection}
             searchTerm={searchTerm}
+            setCurrentSection={setCurrentSection}
+            currentSection={currentSection}
+            sectionRefs={sectionRefs}
           />
         );
       })}
