@@ -5,8 +5,7 @@ import Input from "../Input";
 import emojiList from "../../emoji-list.json";
 import useDebounce from "../../helpers/useDebounce";
 import Sidebar from "../Sidebar";
-import Icon from "../Icon";
-import { SECTION_TYPE } from "../../types";
+import logo from "../../images/emoji-picker-logo.svg";
 
 const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -25,6 +24,10 @@ const App: React.FC = () => {
   };
   return (
     <div className="h-app w-app overflow-y-scroll text-3xl p-6 font-header flex">
+      <header>
+        <h1>Emoji picker</h1>
+        <img src={logo} />
+      </header>
       <div className="w-4/5">
         <Input value={searchTerm} handleTermChange={setSearchTerm} />
         <EmojiSections

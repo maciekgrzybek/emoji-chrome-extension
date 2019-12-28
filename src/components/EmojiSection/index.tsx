@@ -2,13 +2,14 @@ import React, {
   useState,
   useEffect,
   useMemo,
+  lazy,
   Dispatch,
   SetStateAction,
-  useRef
+  Suspense
 } from "react";
 
 import { EmojiSectionType, SingleEmojiType } from "../../types";
-import Emoji from "../Emoji";
+import LoadEmoji from "../LoadEmoji";
 
 type EmojiSectionProps = {
   data: EmojiSectionType;
@@ -18,6 +19,8 @@ type EmojiSectionProps = {
   sectionRefs: Object;
 };
 
+const Emoji = lazy(() => import("../Emoji"));
+
 const EmojiSection: React.FC<EmojiSectionProps> = ({
   data,
   searchTerm,
@@ -26,6 +29,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   sectionRefs
 }) => {
   const [filteredList, setFilteredList] = useState<Array<SingleEmojiType>>([]);
+  const [shouldLoad, setShouldLoad] = useState<Boolean>(false);
   const categoryName = useMemo(() => data.category.split("-").join(" "), [
     data.category
   ]);
@@ -41,18 +45,44 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
       });
     }
   }, [searchTerm, data.emojis]);
-  const handleIntersection = entries => {
+  const setCurrentSectionOnIntersection = (
+    entries: Array<IntersectionObserverEntry>
+  ) => {
     entries.forEach(entry => {
-      if (entry.target.id !== currentSection && entry.isIntersecting) {
-        console.log(data.category, "---category");
+      entry.target.id !== currentSection &&
+        entry.isIntersecting &&
         setCurrentSection(entry.target.id);
+    });
+  };
+
+  const showSectionOnIntersection = (
+    entries: Array<IntersectionObserverEntry>,
+    observer: IntersectionObserver
+  ) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        setShouldLoad(true);
+        observer.disconnect();
       }
     });
   };
   useEffect(() => {
-    console.log("effect!");
     if (sectionRefs[data.category].current) {
-      const observer = new IntersectionObserver(handleIntersection);
+      const observer = new IntersectionObserver(
+        setCurrentSectionOnIntersection
+      );
+      observer.observe(sectionRefs[data.category].current);
+      return () => {
+        observer.disconnect();
+      };
+    }
+  }, [categoryType, filteredList]);
+
+  useEffect(() => {
+    if (sectionRefs[data.category].current) {
+      const observer = new IntersectionObserver(showSectionOnIntersection, {
+        rootMargin: "100px 0px"
+      });
       observer.observe(sectionRefs[data.category].current);
       return () => {
         observer.disconnect();
@@ -67,7 +97,11 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
           key={`${el.name}-${i}`}
           className="rounded hover:bg-gray-200 min-w-50 flex justify-center items-center"
         >
-          <Emoji emoji={el.emoji} emojiCodes={el.code} name={el.name} />
+          <Suspense fallback={<LoadEmoji />}>
+            {shouldLoad && (
+              <Emoji emoji={el.emoji} emojiCodes={el.code} name={el.name} />
+            )}
+          </Suspense>
         </li>
       );
     });
@@ -75,13 +109,17 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
 
   if (filteredList.length > 0) {
     return (
-      <div className="mb-5" ref={sectionRefs[data.category]} id={data.category}>
+      <div
+        className="mb-5 min-h-450"
+        ref={sectionRefs[data.category]}
+        id={data.category}
+      >
         {filteredList.length > 0 && (
           <h2 className="font-semibold text-lg mb-2 uppercase">
             {categoryName}
           </h2>
         )}
-        <ul className="flex flex-wrap">{renderEmojis()}</ul>
+        <ul className="flex flex-wrap">{shouldLoad && renderEmojis()}</ul>
       </div>
     );
   }

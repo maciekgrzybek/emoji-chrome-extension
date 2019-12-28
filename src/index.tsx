@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import 'typeface-montserrat';
+import "typeface-montserrat";
 
 import "./styles/main.css";
+import "tippy.js/dist/tippy.css";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 

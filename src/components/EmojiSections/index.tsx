@@ -1,10 +1,4 @@
-import React, {
-  Dispatch,
-  Ref,
-  RefAttributes,
-  RefObject,
-  SetStateAction
-} from "react";
+import React, { Dispatch, SetStateAction } from "react";
 
 import EmojiSection from "../EmojiSection";
 import { EmojiSectionType } from "../../types";

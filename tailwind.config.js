@@ -10,8 +10,11 @@ module.exports = {
       minWidth: {
         "50": "50px"
       },
+      minHeight: {
+        "450": "450px"
+      },
       fontFamily: {
-        'header': ['Montserrat', 'Arial', 'sans-serif']
+        header: ["Montserrat", "Arial", "sans-serif"]
       }
     }
   },
