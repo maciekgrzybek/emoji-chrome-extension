@@ -4,6 +4,10 @@ module.exports = {
       width: {
         app: "500px"
       },
+      colors: {
+        primary: "#EEC643",
+        secondary: "#F18805"
+      },
       height: {
         app: "450px"
       },

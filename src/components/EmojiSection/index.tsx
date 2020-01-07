@@ -9,7 +9,7 @@ import React, {
 } from "react";
 
 import { EmojiSectionType, SingleEmojiType } from "../../types";
-import LoadEmoji from "../LoadEmoji";
+import LoadEmoji from "../LoadEmoji/LoadEmoji";
 
 type EmojiSectionProps = {
   data: EmojiSectionType;
@@ -110,7 +110,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   if (filteredList.length > 0) {
     return (
       <div
-        className="mb-5 min-h-450"
+        className={`mb-5 ${shouldLoad ? "" : "min-h-450"}`}
         ref={sectionRefs[data.category]}
         id={data.category}
       >

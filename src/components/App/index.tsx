@@ -23,13 +23,16 @@ const App: React.FC = () => {
     });
   };
   return (
-    <div className="h-app w-app overflow-y-scroll text-3xl p-6 font-header flex">
-      <header>
-        <h1>Emoji picker</h1>
-        <img src={logo} />
+    <div className="h-app w-app overflow-y-scroll text-3xl font-header flex flex-col">
+      <header className="bg-primary p-6 flex">
+        <div className="w-2/5 flex pr-8">
+          <img className="w-full" src={logo} />
+        </div>
+        <div className="w-3/5">
+          <Input value={searchTerm} handleTermChange={setSearchTerm} />
+        </div>
       </header>
-      <div className="w-4/5">
-        <Input value={searchTerm} handleTermChange={setSearchTerm} />
+      <div className="p-6">
         <EmojiSections
           emojiList={emojiList}
           searchTerm={debouncedSearchTerm}
