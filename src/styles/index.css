@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .active {
-    background: #4fd1c5;
+    @apply bg-primary;
 }

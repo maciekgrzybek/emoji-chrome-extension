@@ -2,16 +2,18 @@ import React from "react";
 import { EmojiSectionType, SECTION_TYPE } from "../../types";
 import Icon from "../Icon";
 
-type SidebarProps = {
+type CategoriesMenuProps = {
   sections: Array<EmojiSectionType>;
   currentSection?: String;
   scrollTo: Function;
+  setCurrentSection: Function;
 };
 
-const Sidebar: React.FC<SidebarProps> = ({
+const CategoriesMenu: React.FC<CategoriesMenuProps> = ({
   sections,
   currentSection,
-  scrollTo
+  scrollTo,
+  setCurrentSection
 }) => {
   const renderItems = () => {
     return sections.map((section, i) => {
@@ -19,7 +21,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       return (
         <li
           key={category}
-          className={currentSection === category ? "active" : ""}
+          className={`${currentSection === category ? "active" : ""} w-full`}
           onClick={() => handleClick(category)}
         >
           <Icon
@@ -39,12 +41,9 @@ const Sidebar: React.FC<SidebarProps> = ({
   };
   const handleClick = category => {
     scrollTo(category);
+    setCurrentSection(category);
   };
-  return (
-    <div className="fixed">
-      <ul>{renderItems()}</ul>
-    </div>
-  );
+  return <ul className="flex w-full">{renderItems()}</ul>;
 };
 
-export default Sidebar;
+export default CategoriesMenu;

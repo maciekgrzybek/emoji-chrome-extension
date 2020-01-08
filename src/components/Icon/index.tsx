@@ -386,7 +386,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
         return null;
     }
   };
-  return <div style={{ width: 32, height: 32 }}>{renderIcons(type)}</div>;
+  return <div className="w-full p-3">{renderIcons(type)}</div>;
 };
 
 export default Icon;

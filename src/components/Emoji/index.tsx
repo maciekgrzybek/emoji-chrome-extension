@@ -1,18 +1,12 @@
-import React, { useMemo, memo, useRef, useEffect } from "react";
+import React, { memo, useRef, useEffect } from "react";
 import tippy from "tippy.js";
 
 type EmojiProps = {
-  emojiCodes: Array<string>;
   name: string;
   emoji: string;
 };
 
-//TODO: Create lazy loading component
-const Emoji: React.FC<EmojiProps> = ({ emojiCodes, name, emoji }) => {
-  const memoizedCodes = useMemo(
-    () => emojiCodes.reduce((acc, el) => `${acc}, ${el}`),
-    [emojiCodes]
-  );
+const Emoji: React.FC<EmojiProps> = ({ name, emoji }) => {
   const tooltipRef = useRef(null);
 
   useEffect(() => {
@@ -27,7 +21,7 @@ const Emoji: React.FC<EmojiProps> = ({ emojiCodes, name, emoji }) => {
         }
       });
     }
-  }, [tooltipRef.current]);
+  }, [tooltipRef]);
 
   return (
     <div className="flex flex-col cursor-pointer px-2" ref={tooltipRef}>
@@ -37,7 +31,6 @@ const Emoji: React.FC<EmojiProps> = ({ emojiCodes, name, emoji }) => {
       >
         {emoji}
       </span>
-      {/* <span className="text-gray-600 text-xs">{memoizedCodes}</span> */}
     </div>
   );
 };
