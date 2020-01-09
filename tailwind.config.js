@@ -8,7 +8,8 @@ module.exports = {
       },
       colors: {
         primary: "#EEC643",
-        secondary: "#FADF63"
+        secondary: "#FADF63",
+        tertiary: "#2287BA"
       },
       height: {
         app: `${process.env.REACT_APP_APP_HEIGHT}px`

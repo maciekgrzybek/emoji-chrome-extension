@@ -7,3 +7,13 @@
 .active {
     @apply bg-primary;
 }
+
+.transition {
+    transition: .3s;
+}
+.translate-down {
+    transform: translate3d(0,100%,0);
+}
+.translate-zero {
+    transform: translate3d(0,0,0);
+}

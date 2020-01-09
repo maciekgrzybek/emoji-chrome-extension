@@ -1,5 +1,7 @@
-import React, { memo, useRef, useEffect } from "react";
+import React, { memo, useRef, useEffect, useCallback, useContext } from "react";
 import tippy from "tippy.js";
+
+import { EmojiContext } from "../../helpers/emojiContext";
 
 type EmojiProps = {
   name: string;
@@ -8,6 +10,7 @@ type EmojiProps = {
 
 const Emoji: React.FC<EmojiProps> = ({ name, emoji }) => {
   const tooltipRef = useRef(null);
+  const { setCurrentEmoji } = useContext(EmojiContext);
 
   useEffect(() => {
     if (tooltipRef.current) {
@@ -23,12 +26,13 @@ const Emoji: React.FC<EmojiProps> = ({ name, emoji }) => {
     }
   }, [tooltipRef]);
 
+  const handleClick = useCallback(() => {
+    navigator.clipboard.writeText(emoji).then(() => setCurrentEmoji(emoji));
+  }, [emoji]);
+
   return (
     <div className="flex flex-col cursor-pointer px-2" ref={tooltipRef}>
-      <span
-        onClick={() => navigator.clipboard.writeText(emoji)}
-        aria-label={name}
-      >
+      <span onClick={handleClick} aria-label={name}>
         {emoji}
       </span>
     </div>
