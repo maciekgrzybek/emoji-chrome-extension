@@ -6,9 +6,10 @@ import { EmojiContext } from "../../helpers/emojiContext";
 type EmojiProps = {
   name: string;
   emoji: string;
+  code: string;
 };
 
-const Emoji: React.FC<EmojiProps> = ({ name, emoji }) => {
+const Emoji: React.FC<EmojiProps> = ({ name, emoji, code }) => {
   const tooltipRef = useRef(null);
   const { setCurrentEmoji } = useContext(EmojiContext);
 
@@ -32,8 +33,8 @@ const Emoji: React.FC<EmojiProps> = ({ name, emoji }) => {
 
   return (
     <div className="flex flex-col cursor-pointer px-2" ref={tooltipRef}>
-      <span onClick={handleClick} aria-label={name}>
-        {emoji}
+      <span onClick={handleClick} aria-label={name} className={`icon-${code}`}>
+        {/*{emoji}*/}
       </span>
     </div>
   );

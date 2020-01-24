@@ -47,6 +47,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
       });
     }
   }, [searchTerm, data.emojis]);
+
   const setCurrentSectionOnIntersection = useCallback(
     (entries: Array<IntersectionObserverEntry>) => {
       entries.forEach(entry => {
@@ -112,7 +113,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
           className="rounded hover:bg-gray-200 min-w-50 flex justify-center items-center"
         >
           <Suspense fallback={<LoadEmoji />}>
-            {shouldLoad && <Emoji emoji={el.emoji} name={el.name} />}
+            <Emoji emoji={el.emoji} name={el.name} code={el.code} />
           </Suspense>
         </li>
       );
@@ -122,7 +123,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   if (filteredList.length > 0) {
     return (
       <div
-        className={`mb-5 ${shouldLoad ? "" : "min-h-450"}`}
+        className={`scroll-margin-header mb-5`}
         ref={sectionRefs[data.category]}
         id={data.category}
       >
@@ -131,10 +132,11 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
             {categoryName}
           </h2>
         )}
-        <ul className="flex flex-wrap">{shouldLoad && renderEmojis()}</ul>
+        <ul className="flex flex-wrap">{renderEmojis()}</ul>
       </div>
     );
   }
+
   return null;
 };
 

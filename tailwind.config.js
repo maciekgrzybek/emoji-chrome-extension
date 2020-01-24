@@ -24,10 +24,18 @@ module.exports = {
         header: ["Montserrat", "Arial", "sans-serif"]
       },
       margin: {
-        "app-top": "170px"
+        "app-top": `${process.env.REACT_APP_HEADER_HEIGHT}px`
       }
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        ".scroll-margin-header": {
+          "scroll-margin": `${process.env.REACT_APP_HEADER_HEIGHT}px`
+        }
+      });
+    }
+  ]
 };

@@ -23,3 +23,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/images/icons-optimized
+src/images/icons-raw
+src/images/sprites

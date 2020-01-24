@@ -1,17 +1,17 @@
-import React, { createRef, useState } from "react";
+import React, { createRef, useState } from 'react';
 
-import EmojiSections from "../EmojiSections";
-import Input from "../Input";
-import emojiList from "../../emoji-list.json";
-import useDebounce from "../../helpers/useDebounce";
-import CategoriesMenu from "../CategoriesMenu";
-import logo from "../../images/emoji-picker-logo.svg";
-import CopiedEmojis from "../CopiedEmojis";
-import { EmojiProvider } from "../../helpers/emojiContext";
+import EmojiSections from '../EmojiSections';
+import Input from '../Input';
+import emojiList from '../../new-hope.json';
+import useDebounce from '../../helpers/useDebounce';
+import CategoriesMenu from '../CategoriesMenu';
+import logo from '../../images/emoji-picker-logo.svg';
+import CopiedEmojis from '../CopiedEmojis';
+import { EmojiProvider } from '../../helpers/emojiContext';
 
 const App: React.FC = () => {
-  const [searchTerm, setSearchTerm] = useState<string>("");
-  const [currentSection, setCurrentSection] = useState("");
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [currentSection, setCurrentSection] = useState('');
   const debouncedSearchTerm = useDebounce(searchTerm);
 
   const refs = emojiList.reduce((refsObj, section) => {
@@ -19,11 +19,20 @@ const App: React.FC = () => {
     return refsObj;
   }, {});
 
-  const scrollTo = (sectionName: string): void => {
-    refs[sectionName].current.scrollIntoView({
-      block: "start"
+  const scrollTo = (sectionName: string): Promise<boolean> => {
+    return new Promise(resolve => {
+      if (refs[sectionName].current) {
+        refs[sectionName].current.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth'
+        });
+        resolve(true);
+      } else {
+        resolve(false);
+      }
     });
   };
+
   return (
     <EmojiProvider>
       <div className="h-app w-app overflow-y-scroll text-3xl font-header flex flex-col">

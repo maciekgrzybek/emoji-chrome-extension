@@ -1,5 +1,5 @@
 export type SingleEmojiType = {
-  code: Array<string>;
+  code: string;
   name: string;
   emoji: string;
 };

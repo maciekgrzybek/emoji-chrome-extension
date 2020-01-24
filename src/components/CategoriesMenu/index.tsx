@@ -39,9 +39,11 @@ const CategoriesMenu: React.FC<CategoriesMenuProps> = ({
       );
     });
   };
-  const handleClick = category => {
-    scrollTo(category);
-    setCurrentSection(category);
+  const handleClick = async category => {
+    const canScrollTo = await scrollTo(category);
+    if (canScrollTo) {
+      setCurrentSection(category);
+    }
   };
   return <ul className="flex w-full">{renderItems()}</ul>;
 };
