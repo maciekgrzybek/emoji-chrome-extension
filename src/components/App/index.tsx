@@ -1,4 +1,4 @@
-import React, { createRef, useState } from 'react';
+import React, { createRef, useState, useRef } from 'react';
 
 import EmojiSections from '../EmojiSections';
 import Input from '../Input';
@@ -19,12 +19,20 @@ const App: React.FC = () => {
     return refsObj;
   }, {});
 
+  const emojiListFiltered = useRef(
+    emojiList.filter(
+      section =>
+        section.category !== 'component' &&
+        section.category !== 'extras-openmoji' &&
+        section.category !== 'extras-unicode'
+    )
+  );
+
   const scrollTo = (sectionName: string): Promise<boolean> => {
     return new Promise(resolve => {
       if (refs[sectionName].current) {
         refs[sectionName].current.scrollIntoView({
-          block: 'start',
-          behavior: 'smooth'
+          block: 'start'
         });
         resolve(true);
       } else {
@@ -47,16 +55,16 @@ const App: React.FC = () => {
           </div>
           <div className="bg-secondary">
             <CategoriesMenu
-              sections={emojiList}
+              sections={emojiListFiltered.current}
               currentSection={currentSection}
               setCurrentSection={setCurrentSection}
               scrollTo={scrollTo}
             />
           </div>
         </header>
-        <div className="p-6 mt-app-top">
+        <div className="p-6 pb-20 mt-app-top">
           <EmojiSections
-            emojiList={emojiList}
+            emojiList={emojiListFiltered.current}
             searchTerm={debouncedSearchTerm}
             currentSection={currentSection}
             setCurrentSection={setCurrentSection}

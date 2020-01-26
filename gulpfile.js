@@ -24,7 +24,8 @@ function listEmojis(done) {
       correctCategoryObject.emojis.push({
         code: curVal.hexcode,
         name: curVal.annotation,
-        emoji: curVal.emoji
+        emoji: curVal.emoji,
+        tags: `${curVal.tags} ${curVal.openmoji_tags}`
       });
     } else {
       acc = [
@@ -35,7 +36,8 @@ function listEmojis(done) {
             {
               code: curVal.hexcode,
               name: curVal.annotation,
-              emoji: curVal.emoji
+              emoji: curVal.emoji,
+              tags: `${curVal.tags} ${curVal.openmoji_tags}`
             }
           ]
         }
@@ -44,7 +46,7 @@ function listEmojis(done) {
     return acc;
   }, []);
 
-  fs.writeFileSync('new-hope.json', JSON.stringify(modifiedEmojis));
+  fs.writeFileSync('./src/new-hope.json', JSON.stringify(modifiedEmojis));
   done();
 }
 function sortEmojis(done) {
@@ -94,7 +96,7 @@ function buildSprites(done) {
       spriteSmith({
         imgName: `${folder}-icons-sprite.png`,
         cssName: `${folder}-icons-sprite.css`,
-        imgPath: `images/sprites${folder}-icons-sprite.css`
+        imgPath: `../images/sprites${folder}-icons-sprite.css`
       })
     );
 
@@ -119,6 +121,6 @@ function concatSprites() {
     .pipe(gulp.dest('src/'));
 }
 
-gulp.task('develop', gulp.series(buildSprites, concatSprites));
+gulp.task('sprite', gulp.series(listEmojis));
 
 // exports.sprite = gulp.series(buildSprites, concatSprites);

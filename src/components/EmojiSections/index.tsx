@@ -1,7 +1,7 @@
-import React, { Dispatch, SetStateAction, useState } from "react";
+import React, { Dispatch, SetStateAction } from 'react';
 
-import EmojiSection from "../EmojiSection";
-import { EmojiSectionType } from "../../types";
+import EmojiSection from '../EmojiSection';
+import { EmojiSectionType } from '../../types';
 
 type EmojiSectionsProps = {
   emojiList: Array<EmojiSectionType>;

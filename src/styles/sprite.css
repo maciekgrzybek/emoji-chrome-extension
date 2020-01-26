@@ -5,7 +5,7 @@
 .icon-1F383,
 .icon-1F384,
 .icon-1F386 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -58,7 +58,7 @@
 .icon-1F38D,
 .icon-1F38E,
 .icon-1F38F {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -40px -80px;
   width: 40px;
   height: 40px;
@@ -121,7 +121,7 @@
 .icon-1F3A3,
 .icon-1F3A8,
 .icon-1F3AB {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -120px -120px;
   width: 40px;
   height: 40px;
@@ -184,7 +184,7 @@
 .icon-1F3B2,
 .icon-1F3B3,
 .icon-1F3B4 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -120px -160px;
   width: 40px;
   height: 40px;
@@ -247,7 +247,7 @@
 .icon-1F3C6,
 .icon-1F3C8,
 .icon-1F3C9 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -40px -200px;
   width: 40px;
   height: 40px;
@@ -310,7 +310,7 @@
 .icon-1F3F8,
 .icon-1F52E,
 .icon-1F579 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -240px -120px;
   width: 40px;
   height: 40px;
@@ -373,7 +373,7 @@
 .icon-1F948,
 .icon-1F949,
 .icon-1F94A {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -200px -240px;
   width: 40px;
   height: 40px;
@@ -436,7 +436,7 @@
 .icon-1F9E7,
 .icon-1F9E8,
 .icon-1F9E9 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -280px -240px;
   width: 40px;
   height: 40px;
@@ -499,7 +499,7 @@
 .icon-1FA81,
 .icon-265F,
 .icon-2660 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -280px -280px;
   width: 40px;
   height: 40px;
@@ -562,7 +562,7 @@
 .icon-26F3,
 .icon-26F8,
 .icon-2728 {
-  background-image: url("images/sprites/activities-icons-sprite.css");
+  background-image: url("../images/sprites/activities-icons-sprite.png");
   background-position: -320px -280px;
   width: 40px;
   height: 40px;
@@ -623,7 +623,7 @@
 .icon-1F335,
 .icon-1F337,
 .icon-1F338 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -676,7 +676,7 @@
 .icon-1F33F,
 .icon-1F340,
 .icon-1F341 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -40px -80px;
   width: 40px;
   height: 40px;
@@ -739,7 +739,7 @@
 .icon-1F402,
 .icon-1F403,
 .icon-1F404 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -120px -120px;
   width: 40px;
   height: 40px;
@@ -802,7 +802,7 @@
 .icon-1F40A,
 .icon-1F40B,
 .icon-1F40C {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -120px -160px;
   width: 40px;
   height: 40px;
@@ -865,7 +865,7 @@
 .icon-1F412,
 .icon-1F413,
 .icon-1F414 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -40px -200px;
   width: 40px;
   height: 40px;
@@ -928,7 +928,7 @@
 .icon-1F419,
 .icon-1F41A,
 .icon-1F41B {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -240px -120px;
   width: 40px;
   height: 40px;
@@ -991,7 +991,7 @@
 .icon-1F421,
 .icon-1F422,
 .icon-1F423 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -200px -240px;
   width: 40px;
   height: 40px;
@@ -1054,7 +1054,7 @@
 .icon-1F429,
 .icon-1F42A,
 .icon-1F42B {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -280px -240px;
   width: 40px;
   height: 40px;
@@ -1117,7 +1117,7 @@
 .icon-1F431,
 .icon-1F432,
 .icon-1F433 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -280px -280px;
   width: 40px;
   height: 40px;
@@ -1180,7 +1180,7 @@
 .icon-1F439,
 .icon-1F43A,
 .icon-1F43B {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -320px -280px;
   width: 40px;
   height: 40px;
@@ -1243,7 +1243,7 @@
 .icon-1F4AE,
 .icon-1F54A,
 .icon-1F577 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -280px -320px;
   width: 40px;
   height: 40px;
@@ -1306,7 +1306,7 @@
 .icon-1F984,
 .icon-1F985,
 .icon-1F986 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -360px -240px;
   width: 40px;
   height: 40px;
@@ -1369,7 +1369,7 @@
 .icon-1F98C,
 .icon-1F98D,
 .icon-1F98E {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -200px -360px;
   width: 40px;
   height: 40px;
@@ -1432,7 +1432,7 @@
 .icon-1F996,
 .icon-1F997,
 .icon-1F998 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -400px -120px;
   width: 40px;
   height: 40px;
@@ -1495,7 +1495,7 @@
 .icon-1F99F,
 .icon-1F9A0,
 .icon-1F9A1 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -40px -400px;
   width: 40px;
   height: 40px;
@@ -1558,7 +1558,7 @@
 .icon-1F9A9,
 .icon-1F9AE,
 .icon-2618 {
-  background-image: url("images/sprites/animals-nature-icons-sprite.css");
+  background-image: url("../images/sprites/animals-nature-icons-sprite.png");
   background-position: -360px -400px;
   width: 40px;
   height: 40px;
@@ -1613,7 +1613,7 @@
   background-position: -440px -200px;
 }
 .icon-1F3FB {
-  background-image: url("images/sprites/component-icons-sprite.css");
+  background-image: url("../images/sprites/component-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -1627,7 +1627,7 @@
 .icon-1F9B1,
 .icon-1F9B2,
 .icon-1F9B3 {
-  background-image: url("images/sprites/component-icons-sprite.css");
+  background-image: url("../images/sprites/component-icons-sprite.png");
   background-position: -40px 0;
   width: 40px;
   height: 40px;
@@ -1682,7 +1682,7 @@
   background-position: -80px -80px;
 }
 .icon-E000 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -1697,7 +1697,7 @@
 .icon-E044,
 .icon-E045,
 .icon-E080 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -40px 0;
   width: 40px;
   height: 40px;
@@ -1772,7 +1772,7 @@
 .icon-E087,
 .icon-E088,
 .icon-E089 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -120px -40px;
   width: 40px;
   height: 40px;
@@ -1847,7 +1847,7 @@
 .icon-E090,
 .icon-E091,
 .icon-E092 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -160px -120px;
   width: 40px;
   height: 40px;
@@ -1922,7 +1922,7 @@
 .icon-E099,
 .icon-E09A,
 .icon-E09B {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -200px -120px;
   width: 40px;
   height: 40px;
@@ -1997,7 +1997,7 @@
 .icon-E0A2,
 .icon-E0A3,
 .icon-E0A4 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -240px -40px;
   width: 40px;
   height: 40px;
@@ -2072,7 +2072,7 @@
 .icon-E0AB,
 .icon-E0C0,
 .icon-E0C1 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -160px -240px;
   width: 40px;
   height: 40px;
@@ -2147,7 +2147,7 @@
 .icon-E103,
 .icon-E104,
 .icon-E105 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -280px -240px;
   width: 40px;
   height: 40px;
@@ -2222,7 +2222,7 @@
 .icon-E10C,
 .icon-E10D,
 .icon-E140 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -320px 0;
   width: 40px;
   height: 40px;
@@ -2297,7 +2297,7 @@
 .icon-E148,
 .icon-E180,
 .icon-E181 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -40px -320px;
   width: 40px;
   height: 40px;
@@ -2372,7 +2372,7 @@
 .icon-E1C4,
 .icon-E1C5,
 .icon-E1C6 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -360px -40px;
   width: 40px;
   height: 40px;
@@ -2447,7 +2447,7 @@
 .icon-E1CD,
 .icon-E1CE,
 .icon-E1CF {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -40px -360px;
   width: 40px;
   height: 40px;
@@ -2522,7 +2522,7 @@
 .icon-E1D6,
 .icon-E1D7,
 .icon-E200 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -400px 0;
   width: 40px;
   height: 40px;
@@ -2597,7 +2597,7 @@
 .icon-E207,
 .icon-E208,
 .icon-E209 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -400px -360px;
   width: 40px;
   height: 40px;
@@ -2672,7 +2672,7 @@
 .icon-E245,
 .icon-E246,
 .icon-E247 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -320px -400px;
   width: 40px;
   height: 40px;
@@ -2747,7 +2747,7 @@
 .icon-E24E,
 .icon-E24F,
 .icon-E250 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -440px -240px;
   width: 40px;
   height: 40px;
@@ -2822,7 +2822,7 @@
 .icon-E257,
 .icon-E258,
 .icon-E259 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -160px -440px;
   width: 40px;
   height: 40px;
@@ -2897,7 +2897,7 @@
 .icon-E260,
 .icon-E261,
 .icon-E262 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -480px -40px;
   width: 40px;
   height: 40px;
@@ -2972,7 +2972,7 @@
 .icon-E269,
 .icon-E280,
 .icon-E281 {
-  background-image: url("images/sprites/extras-openmoji-icons-sprite.css");
+  background-image: url("../images/sprites/extras-openmoji-icons-sprite.png");
   background-position: -480px -400px;
   width: 40px;
   height: 40px;
@@ -3041,7 +3041,7 @@
 .icon-2B0C,
 .icon-2B0D,
 .icon-2B8F {
-  background-image: url("images/sprites/extras-unicode-icons-sprite.css");
+  background-image: url("../images/sprites/extras-unicode-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -3062,7 +3062,7 @@
   background-position: -40px -40px;
 }
 .icon-1F1E6-1F1E8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -3073,7 +3073,7 @@
 .icon-1F1E6-1F1EB,
 .icon-1F1E6-1F1EC,
 .icon-1F1E6-1F1EE {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px 0;
   width: 40px;
   height: 40px;
@@ -3106,7 +3106,7 @@
 .icon-1F1E6-1F1F4,
 .icon-1F1E6-1F1F6,
 .icon-1F1E6-1F1F7 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: 0 -80px;
   width: 40px;
   height: 40px;
@@ -3139,7 +3139,7 @@
 .icon-1F1E6-1F1FA,
 .icon-1F1E6-1F1FC,
 .icon-1F1E6-1F1FD {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -120px -80px;
   width: 40px;
   height: 40px;
@@ -3172,7 +3172,7 @@
 .icon-1F1E7-1F1E7,
 .icon-1F1E7-1F1E9,
 .icon-1F1E7-1F1EA {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -160px 0;
   width: 40px;
   height: 40px;
@@ -3205,7 +3205,7 @@
 .icon-1F1E7-1F1ED,
 .icon-1F1E7-1F1EE,
 .icon-1F1E7-1F1EF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -160px;
   width: 40px;
   height: 40px;
@@ -3238,7 +3238,7 @@
 .icon-1F1E7-1F1F3,
 .icon-1F1E7-1F1F4,
 .icon-1F1E7-1F1F6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -200px -40px;
   width: 40px;
   height: 40px;
@@ -3271,7 +3271,7 @@
 .icon-1F1E7-1F1F9,
 .icon-1F1E7-1F1FB,
 .icon-1F1E7-1F1FC {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -200px;
   width: 40px;
   height: 40px;
@@ -3304,7 +3304,7 @@
 .icon-1F1E8-1F1E6,
 .icon-1F1E8-1F1E8,
 .icon-1F1E8-1F1E9 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px 0;
   width: 40px;
   height: 40px;
@@ -3337,7 +3337,7 @@
 .icon-1F1E8-1F1ED,
 .icon-1F1E8-1F1EE,
 .icon-1F1E8-1F1F0 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px -200px;
   width: 40px;
   height: 40px;
@@ -3370,7 +3370,7 @@
 .icon-1F1E8-1F1F3,
 .icon-1F1E8-1F1F4,
 .icon-1F1E8-1F1F5 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -160px -240px;
   width: 40px;
   height: 40px;
@@ -3403,7 +3403,7 @@
 .icon-1F1E8-1F1FB,
 .icon-1F1E8-1F1FC,
 .icon-1F1E8-1F1FD {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -280px -80px;
   width: 40px;
   height: 40px;
@@ -3436,7 +3436,7 @@
 .icon-1F1E9-1F1EA,
 .icon-1F1E9-1F1EC,
 .icon-1F1E9-1F1EF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: 0 -280px;
   width: 40px;
   height: 40px;
@@ -3469,7 +3469,7 @@
 .icon-1F1E9-1F1F4,
 .icon-1F1E9-1F1FF,
 .icon-1F1EA-1F1E6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -200px -280px;
   width: 40px;
   height: 40px;
@@ -3502,7 +3502,7 @@
 .icon-1F1EA-1F1EC,
 .icon-1F1EA-1F1ED,
 .icon-1F1EA-1F1F7 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -320px -80px;
   width: 40px;
   height: 40px;
@@ -3535,7 +3535,7 @@
 .icon-1F1EA-1F1FA,
 .icon-1F1EB-1F1EE,
 .icon-1F1EB-1F1EF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -320px -280px;
   width: 40px;
   height: 40px;
@@ -3568,7 +3568,7 @@
 .icon-1F1EB-1F1F4,
 .icon-1F1EB-1F1F7,
 .icon-1F1EC-1F1E6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -160px -320px;
   width: 40px;
   height: 40px;
@@ -3601,7 +3601,7 @@
 .icon-1F1EC-1F1EA,
 .icon-1F1EC-1F1EB,
 .icon-1F1EC-1F1EC {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -360px 0;
   width: 40px;
   height: 40px;
@@ -3634,7 +3634,7 @@
 .icon-1F1EC-1F1F1,
 .icon-1F1EC-1F1F2,
 .icon-1F1EC-1F1F3 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -360px -200px;
   width: 40px;
   height: 40px;
@@ -3667,7 +3667,7 @@
 .icon-1F1EC-1F1F7,
 .icon-1F1EC-1F1F8,
 .icon-1F1EC-1F1F9 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -360px;
   width: 40px;
   height: 40px;
@@ -3700,7 +3700,7 @@
 .icon-1F1EC-1F1FE,
 .icon-1F1ED-1F1F0,
 .icon-1F1ED-1F1F2 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px -360px;
   width: 40px;
   height: 40px;
@@ -3733,7 +3733,7 @@
 .icon-1F1ED-1F1F9,
 .icon-1F1ED-1F1FA,
 .icon-1F1EE-1F1E8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -400px -40px;
   width: 40px;
   height: 40px;
@@ -3766,7 +3766,7 @@
 .icon-1F1EE-1F1F1,
 .icon-1F1EE-1F1F2,
 .icon-1F1EE-1F1F3 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -400px -240px;
   width: 40px;
   height: 40px;
@@ -3799,7 +3799,7 @@
 .icon-1F1EE-1F1F7,
 .icon-1F1EE-1F1F8,
 .icon-1F1EE-1F1F9 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -400px;
   width: 40px;
   height: 40px;
@@ -3832,7 +3832,7 @@
 .icon-1F1EF-1F1F4,
 .icon-1F1EF-1F1F5,
 .icon-1F1F0-1F1EA {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px -400px;
   width: 40px;
   height: 40px;
@@ -3865,7 +3865,7 @@
 .icon-1F1F0-1F1EE,
 .icon-1F1F0-1F1F2,
 .icon-1F1F0-1F1F3 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -440px 0;
   width: 40px;
   height: 40px;
@@ -3898,7 +3898,7 @@
 .icon-1F1F0-1F1FC,
 .icon-1F1F0-1F1FE,
 .icon-1F1F0-1F1FF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -440px -200px;
   width: 40px;
   height: 40px;
@@ -3931,7 +3931,7 @@
 .icon-1F1F1-1F1E8,
 .icon-1F1F1-1F1EE,
 .icon-1F1F1-1F1F0 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -440px -400px;
   width: 40px;
   height: 40px;
@@ -3964,7 +3964,7 @@
 .icon-1F1F1-1F1F9,
 .icon-1F1F1-1F1FA,
 .icon-1F1F1-1F1FB {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -160px -440px;
   width: 40px;
   height: 40px;
@@ -3997,7 +3997,7 @@
 .icon-1F1F2-1F1E8,
 .icon-1F1F2-1F1E9,
 .icon-1F1F2-1F1EA {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -360px -440px;
   width: 40px;
   height: 40px;
@@ -4030,7 +4030,7 @@
 .icon-1F1F2-1F1ED,
 .icon-1F1F2-1F1F0,
 .icon-1F1F2-1F1F1 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -480px -80px;
   width: 40px;
   height: 40px;
@@ -4063,7 +4063,7 @@
 .icon-1F1F2-1F1F4,
 .icon-1F1F2-1F1F5,
 .icon-1F1F2-1F1F6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -480px -280px;
   width: 40px;
   height: 40px;
@@ -4096,7 +4096,7 @@
 .icon-1F1F2-1F1F9,
 .icon-1F1F2-1F1FA,
 .icon-1F1F2-1F1FB {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: 0 -480px;
   width: 40px;
   height: 40px;
@@ -4129,7 +4129,7 @@
 .icon-1F1F2-1F1FE,
 .icon-1F1F2-1F1FF,
 .icon-1F1F3-1F1E6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -200px -480px;
   width: 40px;
   height: 40px;
@@ -4162,7 +4162,7 @@
 .icon-1F1F3-1F1EB,
 .icon-1F1F3-1F1EC,
 .icon-1F1F3-1F1EE {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -400px -480px;
   width: 40px;
   height: 40px;
@@ -4195,7 +4195,7 @@
 .icon-1F1F3-1F1F5,
 .icon-1F1F3-1F1F7,
 .icon-1F1F3-1F1FA {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -520px -80px;
   width: 40px;
   height: 40px;
@@ -4228,7 +4228,7 @@
 .icon-1F1F5-1F1E6,
 .icon-1F1F5-1F1EA,
 .icon-1F1F5-1F1EB {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -520px -280px;
   width: 40px;
   height: 40px;
@@ -4261,7 +4261,7 @@
 .icon-1F1F5-1F1F0,
 .icon-1F1F5-1F1F1,
 .icon-1F1F5-1F1F2 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -520px -480px;
   width: 40px;
   height: 40px;
@@ -4294,7 +4294,7 @@
 .icon-1F1F5-1F1F8,
 .icon-1F1F5-1F1F9,
 .icon-1F1F5-1F1FC {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -160px -520px;
   width: 40px;
   height: 40px;
@@ -4327,7 +4327,7 @@
 .icon-1F1F7-1F1EA,
 .icon-1F1F7-1F1F4,
 .icon-1F1F7-1F1F8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -360px -520px;
   width: 40px;
   height: 40px;
@@ -4360,7 +4360,7 @@
 .icon-1F1F8-1F1E6,
 .icon-1F1F8-1F1E7,
 .icon-1F1F8-1F1E8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -560px 0;
   width: 40px;
   height: 40px;
@@ -4393,7 +4393,7 @@
 .icon-1F1F8-1F1EC,
 .icon-1F1F8-1F1ED,
 .icon-1F1F8-1F1EE {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -560px -200px;
   width: 40px;
   height: 40px;
@@ -4426,7 +4426,7 @@
 .icon-1F1F8-1F1F1,
 .icon-1F1F8-1F1F2,
 .icon-1F1F8-1F1F3 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -560px -400px;
   width: 40px;
   height: 40px;
@@ -4459,7 +4459,7 @@
 .icon-1F1F8-1F1F8,
 .icon-1F1F8-1F1F9,
 .icon-1F1F8-1F1FB {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -560px;
   width: 40px;
   height: 40px;
@@ -4492,7 +4492,7 @@
 .icon-1F1F8-1F1FF,
 .icon-1F1F9-1F1E6,
 .icon-1F1F9-1F1E8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px -560px;
   width: 40px;
   height: 40px;
@@ -4525,7 +4525,7 @@
 .icon-1F1F9-1F1EC,
 .icon-1F1F9-1F1ED,
 .icon-1F1F9-1F1EF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -440px -560px;
   width: 40px;
   height: 40px;
@@ -4558,7 +4558,7 @@
 .icon-1F1F9-1F1F2,
 .icon-1F1F9-1F1F3,
 .icon-1F1F9-1F1F4 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -600px -40px;
   width: 40px;
   height: 40px;
@@ -4591,7 +4591,7 @@
 .icon-1F1F9-1F1FB,
 .icon-1F1F9-1F1FC,
 .icon-1F1F9-1F1FF {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -600px -240px;
   width: 40px;
   height: 40px;
@@ -4624,7 +4624,7 @@
 .icon-1F1FA-1F1F2,
 .icon-1F1FA-1F1F3,
 .icon-1F1FA-1F1F8 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -600px -440px;
   width: 40px;
   height: 40px;
@@ -4657,7 +4657,7 @@
 .icon-1F1FB-1F1E6,
 .icon-1F1FB-1F1E8,
 .icon-1F1FB-1F1EA {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -40px -600px;
   width: 40px;
   height: 40px;
@@ -4690,7 +4690,7 @@
 .icon-1F1FB-1F1F3,
 .icon-1F1FB-1F1FA,
 .icon-1F1FC-1F1EB {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -240px -600px;
   width: 40px;
   height: 40px;
@@ -4723,7 +4723,7 @@
 .icon-1F1FE-1F1EA,
 .icon-1F1FE-1F1F9,
 .icon-1F1FF-1F1E6 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -440px -600px;
   width: 40px;
   height: 40px;
@@ -4756,7 +4756,7 @@
 .icon-1F38C,
 .icon-1F3C1,
 .icon-1F3F3-FE0F-200D-1F308 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -640px 0;
   width: 40px;
   height: 40px;
@@ -4787,7 +4787,7 @@
 .icon-1F3F3,
 .icon-1F3F4-200D-2620-FE0F,
 .icon-1F3F4-E0067-E0062-E0065-E006E-E0067-E007F {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -640px -200px;
   width: 40px;
   height: 40px;
@@ -4806,7 +4806,7 @@
 .icon-1F3F4-E0067-E0062-E0073-E0063-E0074-E007F,
 .icon-1F3F4-E0067-E0062-E0077-E006C-E0073-E007F,
 .icon-1F6A9 {
-  background-image: url("images/sprites/flags-icons-sprite.css");
+  background-image: url("../images/sprites/flags-icons-sprite.png");
   background-position: -640px -320px;
   width: 40px;
   height: 40px;
@@ -4827,7 +4827,7 @@
   background-position: -640px -440px;
 }
 .icon-1F32D {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -4841,7 +4841,7 @@
 .icon-1F344,
 .icon-1F345,
 .icon-1F346 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -40px 0;
   width: 40px;
   height: 40px;
@@ -4904,7 +4904,7 @@
 .icon-1F34C,
 .icon-1F34D,
 .icon-1F34E {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -120px 0;
   width: 40px;
   height: 40px;
@@ -4967,7 +4967,7 @@
 .icon-1F354,
 .icon-1F355,
 .icon-1F356 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -160px -40px;
   width: 40px;
   height: 40px;
@@ -5030,7 +5030,7 @@
 .icon-1F35C,
 .icon-1F35D,
 .icon-1F35E {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -200px 0;
   width: 40px;
   height: 40px;
@@ -5093,7 +5093,7 @@
 .icon-1F364,
 .icon-1F365,
 .icon-1F366 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -120px -200px;
   width: 40px;
   height: 40px;
@@ -5156,7 +5156,7 @@
 .icon-1F36C,
 .icon-1F36D,
 .icon-1F36E {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -240px -200px;
   width: 40px;
   height: 40px;
@@ -5219,7 +5219,7 @@
 .icon-1F374,
 .icon-1F375,
 .icon-1F376 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -280px 0;
   width: 40px;
   height: 40px;
@@ -5282,7 +5282,7 @@
 .icon-1F37C,
 .icon-1F37D,
 .icon-1F37E {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -40px -280px;
   width: 40px;
   height: 40px;
@@ -5345,7 +5345,7 @@
 .icon-1F943,
 .icon-1F944,
 .icon-1F950 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -320px -40px;
   width: 40px;
   height: 40px;
@@ -5408,7 +5408,7 @@
 .icon-1F956,
 .icon-1F957,
 .icon-1F958 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -40px -320px;
   width: 40px;
   height: 40px;
@@ -5471,7 +5471,7 @@
 .icon-1F95E,
 .icon-1F95F,
 .icon-1F960 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -360px 0;
   width: 40px;
   height: 40px;
@@ -5534,7 +5534,7 @@
 .icon-1F966,
 .icon-1F967,
 .icon-1F968 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -360px -320px;
   width: 40px;
   height: 40px;
@@ -5597,7 +5597,7 @@
 .icon-1F96E,
 .icon-1F96F,
 .icon-1F980 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -280px -360px;
   width: 40px;
   height: 40px;
@@ -5660,7 +5660,7 @@
 .icon-1F9C1,
 .icon-1F9C2,
 .icon-1F9C3 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -400px -200px;
   width: 40px;
   height: 40px;
@@ -5723,7 +5723,7 @@
 .icon-1F9C9,
 .icon-1F9CA,
 .icon-2615 {
-  background-image: url("images/sprites/food-drink-icons-sprite.css");
+  background-image: url("../images/sprites/food-drink-icons-sprite.png");
   background-position: -120px -400px;
   width: 40px;
   height: 40px;
@@ -5778,7 +5778,7 @@
   background-position: -400px -400px;
 }
 .icon-1F392 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -5792,7 +5792,7 @@
 .icon-1F3A4,
 .icon-1F3A5,
 .icon-1F3A7 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -40px 0;
   width: 40px;
   height: 40px;
@@ -5855,7 +5855,7 @@
 .icon-1F3B8,
 .icon-1F3B9,
 .icon-1F3BA {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -120px 0;
   width: 40px;
   height: 40px;
@@ -5918,7 +5918,7 @@
 .icon-1F451,
 .icon-1F452,
 .icon-1F453 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -160px -40px;
   width: 40px;
   height: 40px;
@@ -5981,7 +5981,7 @@
 .icon-1F459,
 .icon-1F45A,
 .icon-1F45B {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -200px 0;
   width: 40px;
   height: 40px;
@@ -6044,7 +6044,7 @@
 .icon-1F461,
 .icon-1F462,
 .icon-1F484 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -120px -200px;
   width: 40px;
   height: 40px;
@@ -6107,7 +6107,7 @@
 .icon-1F4B0,
 .icon-1F4B1,
 .icon-1F4B2 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -240px -200px;
   width: 40px;
   height: 40px;
@@ -6170,7 +6170,7 @@
 .icon-1F4B8,
 .icon-1F4B9,
 .icon-1F4BB {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -280px 0;
   width: 40px;
   height: 40px;
@@ -6233,7 +6233,7 @@
 .icon-1F4C1,
 .icon-1F4C2,
 .icon-1F4C3 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -40px -280px;
   width: 40px;
   height: 40px;
@@ -6296,7 +6296,7 @@
 .icon-1F4C9,
 .icon-1F4CA,
 .icon-1F4CB {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -320px -40px;
   width: 40px;
   height: 40px;
@@ -6359,7 +6359,7 @@
 .icon-1F4D1,
 .icon-1F4D2,
 .icon-1F4D3 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -40px -320px;
   width: 40px;
   height: 40px;
@@ -6422,7 +6422,7 @@
 .icon-1F4D9,
 .icon-1F4DA,
 .icon-1F4DC {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -360px 0;
   width: 40px;
   height: 40px;
@@ -6485,7 +6485,7 @@
 .icon-1F4E2,
 .icon-1F4E3,
 .icon-1F4E4 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -360px -320px;
   width: 40px;
   height: 40px;
@@ -6548,7 +6548,7 @@
 .icon-1F4EA,
 .icon-1F4EB,
 .icon-1F4EC {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -280px -360px;
   width: 40px;
   height: 40px;
@@ -6611,7 +6611,7 @@
 .icon-1F4F2,
 .icon-1F4F7,
 .icon-1F4F8 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -400px -200px;
   width: 40px;
   height: 40px;
@@ -6674,7 +6674,7 @@
 .icon-1F4FF,
 .icon-1F507,
 .icon-1F508 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -120px -400px;
   width: 40px;
   height: 40px;
@@ -6737,7 +6737,7 @@
 .icon-1F50E,
 .icon-1F50F,
 .icon-1F510 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -440px 0;
   width: 40px;
   height: 40px;
@@ -6800,7 +6800,7 @@
 .icon-1F516,
 .icon-1F517,
 .icon-1F526 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -440px -320px;
   width: 40px;
   height: 40px;
@@ -6863,7 +6863,7 @@
 .icon-1F52D,
 .icon-1F56F,
 .icon-1F576 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -200px -440px;
   width: 40px;
   height: 40px;
@@ -6926,7 +6926,7 @@
 .icon-1F5A5,
 .icon-1F5A8,
 .icon-1F5B1 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -480px -40px;
   width: 40px;
   height: 40px;
@@ -6989,7 +6989,7 @@
 .icon-1F5D2,
 .icon-1F5D3,
 .icon-1F5DC {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -480px -360px;
   width: 40px;
   height: 40px;
@@ -7052,7 +7052,7 @@
 .icon-1F6AA,
 .icon-1F6AC,
 .icon-1F6BD {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -200px -480px;
   width: 40px;
   height: 40px;
@@ -7115,7 +7115,7 @@
 .icon-1F6D2,
 .icon-1F6E0,
 .icon-1F6E1 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -520px 0;
   width: 40px;
   height: 40px;
@@ -7178,7 +7178,7 @@
 .icon-1F97F,
 .icon-1F9AF,
 .icon-1F9BA {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -520px -320px;
   width: 40px;
   height: 40px;
@@ -7241,7 +7241,7 @@
 .icon-1F9EA,
 .icon-1F9EB,
 .icon-1F9EC {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -120px -520px;
   width: 40px;
   height: 40px;
@@ -7304,7 +7304,7 @@
 .icon-1F9F7,
 .icon-1F9F9,
 .icon-1F9FA {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -440px -520px;
   width: 40px;
   height: 40px;
@@ -7367,7 +7367,7 @@
 .icon-1FA71,
 .icon-1FA72,
 .icon-1FA73 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -560px -200px;
   width: 40px;
   height: 40px;
@@ -7430,7 +7430,7 @@
 .icon-1FA93,
 .icon-1FA94,
 .icon-1FA95 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -560px -520px;
   width: 40px;
   height: 40px;
@@ -7493,7 +7493,7 @@
 .icon-2697,
 .icon-2699,
 .icon-26B0 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -280px -560px;
   width: 40px;
   height: 40px;
@@ -7556,7 +7556,7 @@
 .icon-2709,
 .icon-270F,
 .icon-2712 {
-  background-image: url("images/sprites/objects-icons-sprite.css");
+  background-image: url("../images/sprites/objects-icons-sprite.png");
   background-position: -600px 0;
   width: 40px;
   height: 40px;
@@ -7612,7 +7612,7 @@
 }
 .icon-1F385-1F3FB,
 .icon-1F385-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -7628,7 +7628,7 @@
 .icon-1F385-1F3FF,
 .icon-1F3C2-1F3FB,
 .icon-1F3C2-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -40px;
   width: 40px;
   height: 40px;
@@ -7669,7 +7669,7 @@
 .icon-1F3C2-1F3FE,
 .icon-1F3C2-1F3FF,
 .icon-1F3C3-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -80px;
   width: 40px;
   height: 40px;
@@ -7701,7 +7701,7 @@
 .icon-1F3C3-1F3FB-200D-2642-FE0F,
 .icon-1F3C3-1F3FC-200D-2640-FE0F,
 .icon-1F3C3-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -120px;
   width: 40px;
   height: 40px;
@@ -7726,7 +7726,7 @@
 .icon-1F3C3-1F3FD,
 .icon-1F3C3-1F3FD-200D-2640-FE0F,
 .icon-1F3C3-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -40px;
   width: 40px;
   height: 40px;
@@ -7751,7 +7751,7 @@
 .icon-1F3C3-1F3FE-200D-2640-FE0F,
 .icon-1F3C3-1F3FE-200D-2642-FE0F,
 .icon-1F3C3-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -160px;
   width: 40px;
   height: 40px;
@@ -7776,7 +7776,7 @@
 .icon-1F3C3-1F3FF-200D-2642-FE0F,
 .icon-1F3C3-200D-2640-FE0F,
 .icon-1F3C3-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px 0;
   width: 40px;
   height: 40px;
@@ -7801,7 +7801,7 @@
 .icon-1F3C4-1F3FB,
 .icon-1F3C4-1F3FB-200D-2640-FE0F,
 .icon-1F3C4-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -160px;
   width: 40px;
   height: 40px;
@@ -7826,7 +7826,7 @@
 .icon-1F3C4-1F3FC-200D-2640-FE0F,
 .icon-1F3C4-1F3FC-200D-2642-FE0F,
 .icon-1F3C4-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -200px;
   width: 40px;
   height: 40px;
@@ -7851,7 +7851,7 @@
 .icon-1F3C4-1F3FD-200D-2642-FE0F,
 .icon-1F3C4-1F3FE-200D-2640-FE0F,
 .icon-1F3C4-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -40px;
   width: 40px;
   height: 40px;
@@ -7876,7 +7876,7 @@
 .icon-1F3C4-1F3FF,
 .icon-1F3C4-1F3FF-200D-2640-FE0F,
 .icon-1F3C4-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -200px;
   width: 40px;
   height: 40px;
@@ -7902,7 +7902,7 @@
 .icon-1F3C4-200D-2642-FE0F,
 .icon-1F3C7-1F3FB,
 .icon-1F3C7-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -240px;
   width: 40px;
   height: 40px;
@@ -7935,7 +7935,7 @@
 .icon-1F3C7-1F3FE,
 .icon-1F3C7-1F3FF,
 .icon-1F3CA-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -40px;
   width: 40px;
   height: 40px;
@@ -7967,7 +7967,7 @@
 .icon-1F3CA-1F3FB-200D-2642-FE0F,
 .icon-1F3CA-1F3FC-200D-2640-FE0F,
 .icon-1F3CA-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -240px;
   width: 40px;
   height: 40px;
@@ -7992,7 +7992,7 @@
 .icon-1F3CA-1F3FD,
 .icon-1F3CA-1F3FD-200D-2640-FE0F,
 .icon-1F3CA-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -280px;
   width: 40px;
   height: 40px;
@@ -8017,7 +8017,7 @@
 .icon-1F3CA-1F3FE-200D-2640-FE0F,
 .icon-1F3CA-1F3FE-200D-2642-FE0F,
 .icon-1F3CA-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -280px;
   width: 40px;
   height: 40px;
@@ -8043,7 +8043,7 @@
 .icon-1F3CA-1F3FF-200D-2642-FE0F,
 .icon-1F3CA-200D-2640-FE0F,
 .icon-1F3CA-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -120px;
   width: 40px;
   height: 40px;
@@ -8075,7 +8075,7 @@
 .icon-1F3CB-1F3FB-200D-2640-FE0F,
 .icon-1F3CB-1F3FB-200D-2642-FE0F,
 .icon-1F3CB-1F3FC-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -320px;
   width: 40px;
   height: 40px;
@@ -8100,7 +8100,7 @@
 .icon-1F3CB-1F3FC-200D-2642-FE0F,
 .icon-1F3CB-1F3FD-200D-2640-FE0F,
 .icon-1F3CB-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -320px;
   width: 40px;
   height: 40px;
@@ -8125,7 +8125,7 @@
 .icon-1F3CB-1F3FE,
 .icon-1F3CB-1F3FE-200D-2640-FE0F,
 .icon-1F3CB-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -320px;
   width: 40px;
   height: 40px;
@@ -8150,7 +8150,7 @@
 .icon-1F3CB-1F3FF-200D-2640-FE0F,
 .icon-1F3CB-1F3FF-200D-2642-FE0F,
 .icon-1F3CB-FE0F-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -120px;
   width: 40px;
   height: 40px;
@@ -8175,7 +8175,7 @@
 .icon-1F3CB-FE0F-200D-2642-FE0F,
 .icon-1F3CC-1F3FB-200D-2640-FE0F,
 .icon-1F3CC-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -280px;
   width: 40px;
   height: 40px;
@@ -8200,7 +8200,7 @@
 .icon-1F3CC-1F3FC,
 .icon-1F3CC-1F3FC-200D-2640-FE0F,
 .icon-1F3CC-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -360px;
   width: 40px;
   height: 40px;
@@ -8225,7 +8225,7 @@
 .icon-1F3CC-1F3FD-200D-2640-FE0F,
 .icon-1F3CC-1F3FD-200D-2642-FE0F,
 .icon-1F3CC-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -360px;
   width: 40px;
   height: 40px;
@@ -8250,7 +8250,7 @@
 .icon-1F3CC-1F3FE-200D-2642-FE0F,
 .icon-1F3CC-1F3FF-200D-2640-FE0F,
 .icon-1F3CC-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px 0;
   width: 40px;
   height: 40px;
@@ -8275,7 +8275,7 @@
 .icon-1F3CC-1F3FF,
 .icon-1F3CC-FE0F-200D-2640-FE0F,
 .icon-1F3CC-FE0F-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -160px;
   width: 40px;
   height: 40px;
@@ -8302,7 +8302,7 @@
 .icon-1F442-1F3FC,
 .icon-1F442-1F3FD,
 .icon-1F442-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -320px;
   width: 40px;
   height: 40px;
@@ -8344,7 +8344,7 @@
 .icon-1F443-1F3FC,
 .icon-1F443-1F3FD,
 .icon-1F443-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -400px;
   width: 40px;
   height: 40px;
@@ -8386,7 +8386,7 @@
 .icon-1F445,
 .icon-1F446-1F3FB,
 .icon-1F446-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -400px;
   width: 40px;
   height: 40px;
@@ -8428,7 +8428,7 @@
 .icon-1F446-1F3FF,
 .icon-1F447-1F3FB,
 .icon-1F447-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -200px;
   width: 40px;
   height: 40px;
@@ -8470,7 +8470,7 @@
 .icon-1F447-1F3FF,
 .icon-1F448-1F3FB,
 .icon-1F448-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -440px;
   width: 40px;
   height: 40px;
@@ -8512,7 +8512,7 @@
 .icon-1F448-1F3FF,
 .icon-1F449-1F3FB,
 .icon-1F449-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -440px;
   width: 40px;
   height: 40px;
@@ -8554,7 +8554,7 @@
 .icon-1F449-1F3FF,
 .icon-1F44A-1F3FB,
 .icon-1F44A-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px 0;
   width: 40px;
   height: 40px;
@@ -8596,7 +8596,7 @@
 .icon-1F44A-1F3FF,
 .icon-1F44B-1F3FB,
 .icon-1F44B-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -240px;
   width: 40px;
   height: 40px;
@@ -8638,7 +8638,7 @@
 .icon-1F44B-1F3FF,
 .icon-1F44C-1F3FB,
 .icon-1F44C-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -480px;
   width: 40px;
   height: 40px;
@@ -8680,7 +8680,7 @@
 .icon-1F44C-1F3FF,
 .icon-1F44D-1F3FB,
 .icon-1F44D-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -480px;
   width: 40px;
   height: 40px;
@@ -8722,7 +8722,7 @@
 .icon-1F44D-1F3FF,
 .icon-1F44E-1F3FB,
 .icon-1F44E-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -480px;
   width: 40px;
   height: 40px;
@@ -8764,7 +8764,7 @@
 .icon-1F44E-1F3FF,
 .icon-1F44F-1F3FB,
 .icon-1F44F-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -200px;
   width: 40px;
   height: 40px;
@@ -8806,7 +8806,7 @@
 .icon-1F44F-1F3FF,
 .icon-1F450-1F3FB,
 .icon-1F450-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -440px;
   width: 40px;
   height: 40px;
@@ -8849,7 +8849,7 @@
 .icon-1F463,
 .icon-1F464,
 .icon-1F465 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -520px;
   width: 40px;
   height: 40px;
@@ -8900,7 +8900,7 @@
 .icon-1F466-1F3FD,
 .icon-1F466-1F3FE,
 .icon-1F466-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -520px;
   width: 40px;
   height: 40px;
@@ -8942,7 +8942,7 @@
 .icon-1F467-1F3FD,
 .icon-1F467-1F3FE,
 .icon-1F467-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -120px;
   width: 40px;
   height: 40px;
@@ -8982,7 +8982,7 @@
 .icon-1F468-1F3FB-200D-1F373,
 .icon-1F468-1F3FB-200D-1F393,
 .icon-1F468-1F3FB-200D-1F3A4 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -360px;
   width: 40px;
   height: 40px;
@@ -9007,7 +9007,7 @@
 .icon-1F468-1F3FB-200D-1F3EB,
 .icon-1F468-1F3FB-200D-1F3ED,
 .icon-1F468-1F3FB-200D-1F4BB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -520px;
   width: 40px;
   height: 40px;
@@ -9032,7 +9032,7 @@
 .icon-1F468-1F3FB-200D-1F527,
 .icon-1F468-1F3FB-200D-1F52C,
 .icon-1F468-1F3FB-200D-1F680 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -560px;
   width: 40px;
   height: 40px;
@@ -9057,7 +9057,7 @@
 .icon-1F468-1F3FB-200D-1F9AF,
 .icon-1F468-1F3FB-200D-1F9B0,
 .icon-1F468-1F3FB-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -560px;
   width: 40px;
   height: 40px;
@@ -9082,7 +9082,7 @@
 .icon-1F468-1F3FB-200D-1F9B3,
 .icon-1F468-1F3FB-200D-1F9BC,
 .icon-1F468-1F3FB-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -560px;
   width: 40px;
   height: 40px;
@@ -9107,7 +9107,7 @@
 .icon-1F468-1F3FB-200D-2695-FE0F,
 .icon-1F468-1F3FB-200D-2696-FE0F,
 .icon-1F468-1F3FB-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px 0;
   width: 40px;
   height: 40px;
@@ -9132,7 +9132,7 @@
 .icon-1F468-1F3FC-200D-1F373,
 .icon-1F468-1F3FC-200D-1F393,
 .icon-1F468-1F3FC-200D-1F3A4 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -160px;
   width: 40px;
   height: 40px;
@@ -9157,7 +9157,7 @@
 .icon-1F468-1F3FC-200D-1F3EB,
 .icon-1F468-1F3FC-200D-1F3ED,
 .icon-1F468-1F3FC-200D-1F4BB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -320px;
   width: 40px;
   height: 40px;
@@ -9182,7 +9182,7 @@
 .icon-1F468-1F3FC-200D-1F527,
 .icon-1F468-1F3FC-200D-1F52C,
 .icon-1F468-1F3FC-200D-1F680 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -480px;
   width: 40px;
   height: 40px;
@@ -9206,7 +9206,7 @@
 .icon-1F468-1F3FC-200D-1F692,
 .icon-1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB,
 .icon-1F468-1F3FC-200D-1F9AF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -600px;
   width: 40px;
   height: 40px;
@@ -9225,7 +9225,7 @@
 .icon-1F468-1F3FC-200D-1F9B1,
 .icon-1F468-1F3FC-200D-1F9B2,
 .icon-1F468-1F3FC-200D-1F9B3 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -600px;
   width: 40px;
   height: 40px;
@@ -9249,7 +9249,7 @@
 .icon-1F468-1F3FC-200D-1F9BC,
 .icon-1F468-1F3FC-200D-1F9BD,
 .icon-1F468-1F3FC-200D-2695-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -600px;
   width: 40px;
   height: 40px;
@@ -9268,7 +9268,7 @@
 .icon-1F468-1F3FC-200D-2696-FE0F,
 .icon-1F468-1F3FC-200D-2708-FE0F,
 .icon-1F468-1F3FD-200D-1F33E {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -600px;
   width: 40px;
   height: 40px;
@@ -9293,7 +9293,7 @@
 .icon-1F468-1F3FD-200D-1F393,
 .icon-1F468-1F3FD-200D-1F3A4,
 .icon-1F468-1F3FD-200D-1F3A8 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -600px;
   width: 40px;
   height: 40px;
@@ -9318,7 +9318,7 @@
 .icon-1F468-1F3FD-200D-1F3ED,
 .icon-1F468-1F3FD-200D-1F4BB,
 .icon-1F468-1F3FD-200D-1F4BC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -120px;
   width: 40px;
   height: 40px;
@@ -9343,7 +9343,7 @@
 .icon-1F468-1F3FD-200D-1F52C,
 .icon-1F468-1F3FD-200D-1F680,
 .icon-1F468-1F3FD-200D-1F692 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -280px;
   width: 40px;
   height: 40px;
@@ -9367,7 +9367,7 @@
 .icon-1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB,
 .icon-1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC,
 .icon-1F468-1F3FD-200D-1F9AF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -440px;
   width: 40px;
   height: 40px;
@@ -9386,7 +9386,7 @@
 .icon-1F468-1F3FD-200D-1F9B1,
 .icon-1F468-1F3FD-200D-1F9B2,
 .icon-1F468-1F3FD-200D-1F9B3 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -560px;
   width: 40px;
   height: 40px;
@@ -9410,7 +9410,7 @@
 .icon-1F468-1F3FD-200D-1F9BC,
 .icon-1F468-1F3FD-200D-1F9BD,
 .icon-1F468-1F3FD-200D-2695-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -640px;
   width: 40px;
   height: 40px;
@@ -9429,7 +9429,7 @@
 .icon-1F468-1F3FD-200D-2696-FE0F,
 .icon-1F468-1F3FD-200D-2708-FE0F,
 .icon-1F468-1F3FE-200D-1F33E {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -640px;
   width: 40px;
   height: 40px;
@@ -9454,7 +9454,7 @@
 .icon-1F468-1F3FE-200D-1F393,
 .icon-1F468-1F3FE-200D-1F3A4,
 .icon-1F468-1F3FE-200D-1F3A8 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -640px;
   width: 40px;
   height: 40px;
@@ -9479,7 +9479,7 @@
 .icon-1F468-1F3FE-200D-1F3ED,
 .icon-1F468-1F3FE-200D-1F4BB,
 .icon-1F468-1F3FE-200D-1F4BC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -640px;
   width: 40px;
   height: 40px;
@@ -9504,7 +9504,7 @@
 .icon-1F468-1F3FE-200D-1F52C,
 .icon-1F468-1F3FE-200D-1F680,
 .icon-1F468-1F3FE-200D-1F692 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px 0;
   width: 40px;
   height: 40px;
@@ -9527,7 +9527,7 @@
 
 .icon-1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB,
 .icon-1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -160px;
   width: 40px;
   height: 40px;
@@ -9541,7 +9541,7 @@
 .icon-1F468-1F3FE-200D-1F9AF,
 .icon-1F468-1F3FE-200D-1F9B0,
 .icon-1F468-1F3FE-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -240px;
   width: 40px;
   height: 40px;
@@ -9566,7 +9566,7 @@
 .icon-1F468-1F3FE-200D-1F9B3,
 .icon-1F468-1F3FE-200D-1F9BC,
 .icon-1F468-1F3FE-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -400px;
   width: 40px;
   height: 40px;
@@ -9590,7 +9590,7 @@
 .icon-1F468-1F3FE-200D-2695-FE0F,
 .icon-1F468-1F3FE-200D-2696-FE0F,
 .icon-1F468-1F3FE-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -560px;
   width: 40px;
   height: 40px;
@@ -9609,7 +9609,7 @@
 .icon-1F468-1F3FF-200D-1F33E,
 .icon-1F468-1F3FF-200D-1F373,
 .icon-1F468-1F3FF-200D-1F393 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -680px;
   width: 40px;
   height: 40px;
@@ -9634,7 +9634,7 @@
 .icon-1F468-1F3FF-200D-1F3A8,
 .icon-1F468-1F3FF-200D-1F3EB,
 .icon-1F468-1F3FF-200D-1F3ED {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -680px;
   width: 40px;
   height: 40px;
@@ -9659,7 +9659,7 @@
 .icon-1F468-1F3FF-200D-1F4BC,
 .icon-1F468-1F3FF-200D-1F527,
 .icon-1F468-1F3FF-200D-1F52C {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -680px;
   width: 40px;
   height: 40px;
@@ -9683,7 +9683,7 @@
 .icon-1F468-1F3FF-200D-1F680,
 .icon-1F468-1F3FF-200D-1F692,
 .icon-1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -680px;
   width: 40px;
   height: 40px;
@@ -9700,7 +9700,7 @@
 
 .icon-1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC,
 .icon-1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -680px;
   width: 40px;
   height: 40px;
@@ -9714,7 +9714,7 @@
 .icon-1F468-1F3FF-200D-1F9AF,
 .icon-1F468-1F3FF-200D-1F9B0,
 .icon-1F468-1F3FF-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -680px;
   width: 40px;
   height: 40px;
@@ -9739,7 +9739,7 @@
 .icon-1F468-1F3FF-200D-1F9B3,
 .icon-1F468-1F3FF-200D-1F9BC,
 .icon-1F468-1F3FF-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -120px;
   width: 40px;
   height: 40px;
@@ -9764,7 +9764,7 @@
 .icon-1F468-1F3FF-200D-2695-FE0F,
 .icon-1F468-1F3FF-200D-2696-FE0F,
 .icon-1F468-1F3FF-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -280px;
   width: 40px;
   height: 40px;
@@ -9789,7 +9789,7 @@
 .icon-1F468-200D-1F373,
 .icon-1F468-200D-1F393,
 .icon-1F468-200D-1F3A4 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -440px;
   width: 40px;
   height: 40px;
@@ -9814,7 +9814,7 @@
 .icon-1F468-200D-1F3EB,
 .icon-1F468-200D-1F3ED,
 .icon-1F468-200D-1F466-200D-1F466 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -600px;
   width: 40px;
   height: 40px;
@@ -9838,7 +9838,7 @@
 .icon-1F468-200D-1F466,
 .icon-1F468-200D-1F467-200D-1F466,
 .icon-1F468-200D-1F467-200D-1F467 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -720px;
   width: 40px;
   height: 40px;
@@ -9856,7 +9856,7 @@
 .icon-1F468-200D-1F467,
 .icon-1F468-200D-1F468-200D-1F466,
 .icon-1F468-200D-1F468-200D-1F466-200D-1F466 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -720px;
   width: 40px;
   height: 40px;
@@ -9873,7 +9873,7 @@
 
 .icon-1F468-200D-1F468-200D-1F467-200D-1F466,
 .icon-1F468-200D-1F468-200D-1F467-200D-1F467 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -720px;
   width: 40px;
   height: 40px;
@@ -9886,7 +9886,7 @@
 .icon-1F468-200D-1F468-200D-1F467,
 .icon-1F468-200D-1F469-200D-1F466,
 .icon-1F468-200D-1F469-200D-1F466-200D-1F466 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -720px;
   width: 40px;
   height: 40px;
@@ -9903,7 +9903,7 @@
 
 .icon-1F468-200D-1F469-200D-1F467-200D-1F466,
 .icon-1F468-200D-1F469-200D-1F467-200D-1F467 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -720px;
   width: 40px;
   height: 40px;
@@ -9917,7 +9917,7 @@
 .icon-1F468-200D-1F4BB,
 .icon-1F468-200D-1F4BC,
 .icon-1F468-200D-1F527 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -720px;
   width: 40px;
   height: 40px;
@@ -9942,7 +9942,7 @@
 .icon-1F468-200D-1F680,
 .icon-1F468-200D-1F692,
 .icon-1F468-200D-1F9AF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -720px;
   width: 40px;
   height: 40px;
@@ -9967,7 +9967,7 @@
 .icon-1F468-200D-1F9B1,
 .icon-1F468-200D-1F9B2,
 .icon-1F468-200D-1F9B3 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -120px;
   width: 40px;
   height: 40px;
@@ -9992,7 +9992,7 @@
 .icon-1F468-200D-1F9BD,
 .icon-1F468-200D-2695-FE0F,
 .icon-1F468-200D-2696-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -280px;
   width: 40px;
   height: 40px;
@@ -10016,7 +10016,7 @@
 .icon-1F468-200D-2708-FE0F,
 .icon-1F468-200D-2764-FE0F-200D-1F468,
 .icon-1F468-200D-2764-FE0F-200D-1F48B-200D-1F468 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -440px;
   width: 40px;
   height: 40px;
@@ -10035,7 +10035,7 @@
 .icon-1F469-1F3FB-200D-1F33E,
 .icon-1F469-1F3FB-200D-1F373,
 .icon-1F469-1F3FB-200D-1F393 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -560px;
   width: 40px;
   height: 40px;
@@ -10060,7 +10060,7 @@
 .icon-1F469-1F3FB-200D-1F3A8,
 .icon-1F469-1F3FB-200D-1F3EB,
 .icon-1F469-1F3FB-200D-1F3ED {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -720px;
   width: 40px;
   height: 40px;
@@ -10085,7 +10085,7 @@
 .icon-1F469-1F3FB-200D-1F4BC,
 .icon-1F469-1F3FB-200D-1F527,
 .icon-1F469-1F3FB-200D-1F52C {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -760px;
   width: 40px;
   height: 40px;
@@ -10109,7 +10109,7 @@
 .icon-1F469-1F3FB-200D-1F680,
 .icon-1F469-1F3FB-200D-1F692,
 .icon-1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -760px;
   width: 40px;
   height: 40px;
@@ -10126,7 +10126,7 @@
 
 .icon-1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD,
 .icon-1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -760px;
   width: 40px;
   height: 40px;
@@ -10140,7 +10140,7 @@
 .icon-1F469-1F3FB-200D-1F9AF,
 .icon-1F469-1F3FB-200D-1F9B0,
 .icon-1F469-1F3FB-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -760px;
   width: 40px;
   height: 40px;
@@ -10165,7 +10165,7 @@
 .icon-1F469-1F3FB-200D-1F9B3,
 .icon-1F469-1F3FB-200D-1F9BC,
 .icon-1F469-1F3FB-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -760px;
   width: 40px;
   height: 40px;
@@ -10189,7 +10189,7 @@
 .icon-1F469-1F3FB-200D-2695-FE0F,
 .icon-1F469-1F3FB-200D-2696-FE0F,
 .icon-1F469-1F3FB-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px 0;
   width: 40px;
   height: 40px;
@@ -10208,7 +10208,7 @@
 .icon-1F469-1F3FC-200D-1F33E,
 .icon-1F469-1F3FC-200D-1F373,
 .icon-1F469-1F3FC-200D-1F393 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -120px;
   width: 40px;
   height: 40px;
@@ -10233,7 +10233,7 @@
 .icon-1F469-1F3FC-200D-1F3A8,
 .icon-1F469-1F3FC-200D-1F3EB,
 .icon-1F469-1F3FC-200D-1F3ED {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -280px;
   width: 40px;
   height: 40px;
@@ -10258,7 +10258,7 @@
 .icon-1F469-1F3FC-200D-1F4BC,
 .icon-1F469-1F3FC-200D-1F527,
 .icon-1F469-1F3FC-200D-1F52C {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -440px;
   width: 40px;
   height: 40px;
@@ -10282,7 +10282,7 @@
 .icon-1F469-1F3FC-200D-1F680,
 .icon-1F469-1F3FC-200D-1F692,
 .icon-1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -600px;
   width: 40px;
   height: 40px;
@@ -10299,7 +10299,7 @@
 
 .icon-1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD,
 .icon-1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -720px;
   width: 40px;
   height: 40px;
@@ -10312,7 +10312,7 @@
 .icon-1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF,
 .icon-1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB,
 .icon-1F469-1F3FC-200D-1F9AF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -800px;
   width: 40px;
   height: 40px;
@@ -10331,7 +10331,7 @@
 .icon-1F469-1F3FC-200D-1F9B1,
 .icon-1F469-1F3FC-200D-1F9B2,
 .icon-1F469-1F3FC-200D-1F9B3 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -800px;
   width: 40px;
   height: 40px;
@@ -10355,7 +10355,7 @@
 .icon-1F469-1F3FC-200D-1F9BC,
 .icon-1F469-1F3FC-200D-1F9BD,
 .icon-1F469-1F3FC-200D-2695-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -800px;
   width: 40px;
   height: 40px;
@@ -10374,7 +10374,7 @@
 .icon-1F469-1F3FC-200D-2696-FE0F,
 .icon-1F469-1F3FC-200D-2708-FE0F,
 .icon-1F469-1F3FD-200D-1F33E {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -800px;
   width: 40px;
   height: 40px;
@@ -10399,7 +10399,7 @@
 .icon-1F469-1F3FD-200D-1F393,
 .icon-1F469-1F3FD-200D-1F3A4,
 .icon-1F469-1F3FD-200D-1F3A8 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -800px;
   width: 40px;
   height: 40px;
@@ -10424,7 +10424,7 @@
 .icon-1F469-1F3FD-200D-1F3ED,
 .icon-1F469-1F3FD-200D-1F4BB,
 .icon-1F469-1F3FD-200D-1F4BC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -800px;
   width: 40px;
   height: 40px;
@@ -10449,7 +10449,7 @@
 .icon-1F469-1F3FD-200D-1F52C,
 .icon-1F469-1F3FD-200D-1F680,
 .icon-1F469-1F3FD-200D-1F692 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -40px;
   width: 40px;
   height: 40px;
@@ -10472,7 +10472,7 @@
 
 .icon-1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB,
 .icon-1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -200px;
   width: 40px;
   height: 40px;
@@ -10484,7 +10484,7 @@
 
 .icon-1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE,
 .icon-1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -280px;
   width: 40px;
   height: 40px;
@@ -10497,7 +10497,7 @@
 .icon-1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB,
 .icon-1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC,
 .icon-1F469-1F3FD-200D-1F9AF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -360px;
   width: 40px;
   height: 40px;
@@ -10516,7 +10516,7 @@
 .icon-1F469-1F3FD-200D-1F9B1,
 .icon-1F469-1F3FD-200D-1F9B2,
 .icon-1F469-1F3FD-200D-1F9B3 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -480px;
   width: 40px;
   height: 40px;
@@ -10540,7 +10540,7 @@
 .icon-1F469-1F3FD-200D-1F9BC,
 .icon-1F469-1F3FD-200D-1F9BD,
 .icon-1F469-1F3FD-200D-2695-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -640px;
   width: 40px;
   height: 40px;
@@ -10559,7 +10559,7 @@
 .icon-1F469-1F3FD-200D-2696-FE0F,
 .icon-1F469-1F3FD-200D-2708-FE0F,
 .icon-1F469-1F3FE-200D-1F33E {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -760px;
   width: 40px;
   height: 40px;
@@ -10584,7 +10584,7 @@
 .icon-1F469-1F3FE-200D-1F393,
 .icon-1F469-1F3FE-200D-1F3A4,
 .icon-1F469-1F3FE-200D-1F3A8 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -840px;
   width: 40px;
   height: 40px;
@@ -10609,7 +10609,7 @@
 .icon-1F469-1F3FE-200D-1F3ED,
 .icon-1F469-1F3FE-200D-1F4BB,
 .icon-1F469-1F3FE-200D-1F4BC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -840px;
   width: 40px;
   height: 40px;
@@ -10634,7 +10634,7 @@
 .icon-1F469-1F3FE-200D-1F52C,
 .icon-1F469-1F3FE-200D-1F680,
 .icon-1F469-1F3FE-200D-1F692 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -840px;
   width: 40px;
   height: 40px;
@@ -10657,7 +10657,7 @@
 
 .icon-1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB,
 .icon-1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -840px;
   width: 40px;
   height: 40px;
@@ -10669,7 +10669,7 @@
 
 .icon-1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD,
 .icon-1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -840px;
   width: 40px;
   height: 40px;
@@ -10681,7 +10681,7 @@
 
 .icon-1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB,
 .icon-1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -840px;
   width: 40px;
   height: 40px;
@@ -10695,7 +10695,7 @@
 .icon-1F469-1F3FE-200D-1F9AF,
 .icon-1F469-1F3FE-200D-1F9B0,
 .icon-1F469-1F3FE-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -840px;
   width: 40px;
   height: 40px;
@@ -10720,7 +10720,7 @@
 .icon-1F469-1F3FE-200D-1F9B3,
 .icon-1F469-1F3FE-200D-1F9BC,
 .icon-1F469-1F3FE-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -80px;
   width: 40px;
   height: 40px;
@@ -10744,7 +10744,7 @@
 .icon-1F469-1F3FE-200D-2695-FE0F,
 .icon-1F469-1F3FE-200D-2696-FE0F,
 .icon-1F469-1F3FE-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -240px;
   width: 40px;
   height: 40px;
@@ -10763,7 +10763,7 @@
 .icon-1F469-1F3FF-200D-1F33E,
 .icon-1F469-1F3FF-200D-1F373,
 .icon-1F469-1F3FF-200D-1F393 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -360px;
   width: 40px;
   height: 40px;
@@ -10788,7 +10788,7 @@
 .icon-1F469-1F3FF-200D-1F3A8,
 .icon-1F469-1F3FF-200D-1F3EB,
 .icon-1F469-1F3FF-200D-1F3ED {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -520px;
   width: 40px;
   height: 40px;
@@ -10813,7 +10813,7 @@
 .icon-1F469-1F3FF-200D-1F4BC,
 .icon-1F469-1F3FF-200D-1F527,
 .icon-1F469-1F3FF-200D-1F52C {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -680px;
   width: 40px;
   height: 40px;
@@ -10837,7 +10837,7 @@
 .icon-1F469-1F3FF-200D-1F680,
 .icon-1F469-1F3FF-200D-1F692,
 .icon-1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -840px;
   width: 40px;
   height: 40px;
@@ -10854,7 +10854,7 @@
 
 .icon-1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC,
 .icon-1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -880px;
   width: 40px;
   height: 40px;
@@ -10866,7 +10866,7 @@
 
 .icon-1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE,
 .icon-1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -880px;
   width: 40px;
   height: 40px;
@@ -10878,7 +10878,7 @@
 
 .icon-1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC,
 .icon-1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -880px;
   width: 40px;
   height: 40px;
@@ -10892,7 +10892,7 @@
 .icon-1F469-1F3FF-200D-1F9AF,
 .icon-1F469-1F3FF-200D-1F9B0,
 .icon-1F469-1F3FF-200D-1F9B1 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -880px;
   width: 40px;
   height: 40px;
@@ -10917,7 +10917,7 @@
 .icon-1F469-1F3FF-200D-1F9B3,
 .icon-1F469-1F3FF-200D-1F9BC,
 .icon-1F469-1F3FF-200D-1F9BD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -880px;
   width: 40px;
   height: 40px;
@@ -10942,7 +10942,7 @@
 .icon-1F469-1F3FF-200D-2695-FE0F,
 .icon-1F469-1F3FF-200D-2696-FE0F,
 .icon-1F469-1F3FF-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -880px;
   width: 40px;
   height: 40px;
@@ -10967,7 +10967,7 @@
 .icon-1F469-200D-1F373,
 .icon-1F469-200D-1F393,
 .icon-1F469-200D-1F3A4 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -880px;
   width: 40px;
   height: 40px;
@@ -10992,7 +10992,7 @@
 .icon-1F469-200D-1F3EB,
 .icon-1F469-200D-1F3ED,
 .icon-1F469-200D-1F466-200D-1F466 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -40px;
   width: 40px;
   height: 40px;
@@ -11016,7 +11016,7 @@
 .icon-1F469-200D-1F466,
 .icon-1F469-200D-1F467-200D-1F466,
 .icon-1F469-200D-1F467-200D-1F467 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -200px;
   width: 40px;
   height: 40px;
@@ -11034,7 +11034,7 @@
 .icon-1F469-200D-1F467,
 .icon-1F469-200D-1F469-200D-1F466,
 .icon-1F469-200D-1F469-200D-1F466-200D-1F466 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -320px;
   width: 40px;
   height: 40px;
@@ -11052,7 +11052,7 @@
 .icon-1F469-200D-1F469-200D-1F467,
 .icon-1F469-200D-1F469-200D-1F467-200D-1F466,
 .icon-1F469-200D-1F469-200D-1F467-200D-1F467 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -440px;
   width: 40px;
   height: 40px;
@@ -11071,7 +11071,7 @@
 .icon-1F469-200D-1F4BC,
 .icon-1F469-200D-1F527,
 .icon-1F469-200D-1F52C {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -560px;
   width: 40px;
   height: 40px;
@@ -11096,7 +11096,7 @@
 .icon-1F469-200D-1F692,
 .icon-1F469-200D-1F9AF,
 .icon-1F469-200D-1F9B0 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -720px;
   width: 40px;
   height: 40px;
@@ -11121,7 +11121,7 @@
 .icon-1F469-200D-1F9B2,
 .icon-1F469-200D-1F9B3,
 .icon-1F469-200D-1F9BC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -880px;
   width: 40px;
   height: 40px;
@@ -11146,7 +11146,7 @@
 .icon-1F469-200D-2695-FE0F,
 .icon-1F469-200D-2696-FE0F,
 .icon-1F469-200D-2708-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -920px;
   width: 40px;
   height: 40px;
@@ -11170,7 +11170,7 @@
 .icon-1F469-200D-2764-FE0F-200D-1F468,
 .icon-1F469-200D-2764-FE0F-200D-1F469,
 .icon-1F469-200D-2764-FE0F-200D-1F48B-200D-1F468 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -920px;
   width: 40px;
   height: 40px;
@@ -11190,7 +11190,7 @@
 .icon-1F46A,
 .icon-1F46B-1F3FB,
 .icon-1F46B-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -920px;
   width: 40px;
   height: 40px;
@@ -11224,7 +11224,7 @@
 .icon-1F46B-1F3FF,
 .icon-1F46C-1F3FB,
 .icon-1F46C-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -920px;
   width: 40px;
   height: 40px;
@@ -11266,7 +11266,7 @@
 .icon-1F46C-1F3FF,
 .icon-1F46D-1F3FB,
 .icon-1F46D-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -920px;
   width: 40px;
   height: 40px;
@@ -11307,7 +11307,7 @@
 .icon-1F46D-1F3FE,
 .icon-1F46D-1F3FF,
 .icon-1F46E-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -960px -120px;
   width: 40px;
   height: 40px;
@@ -11339,7 +11339,7 @@
 .icon-1F46E-1F3FB-200D-2642-FE0F,
 .icon-1F46E-1F3FC-200D-2640-FE0F,
 .icon-1F46E-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -960px -320px;
   width: 40px;
   height: 40px;
@@ -11364,7 +11364,7 @@
 .icon-1F46E-1F3FD,
 .icon-1F46E-1F3FD-200D-2640-FE0F,
 .icon-1F46E-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -960px -480px;
   width: 40px;
   height: 40px;
@@ -11389,7 +11389,7 @@
 .icon-1F46E-1F3FE-200D-2640-FE0F,
 .icon-1F46E-1F3FE-200D-2642-FE0F,
 .icon-1F46E-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -960px -640px;
   width: 40px;
   height: 40px;
@@ -11415,7 +11415,7 @@
 .icon-1F46E-1F3FF-200D-2642-FE0F,
 .icon-1F46E-200D-2640-FE0F,
 .icon-1F46E-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -960px -800px;
   width: 40px;
   height: 40px;
@@ -11448,7 +11448,7 @@
 .icon-1F46F-200D-2642-FE0F,
 .icon-1F470-1F3FB,
 .icon-1F470-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -960px;
   width: 40px;
   height: 40px;
@@ -11481,7 +11481,7 @@
 .icon-1F470-1F3FE,
 .icon-1F470-1F3FF,
 .icon-1F471-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -960px;
   width: 40px;
   height: 40px;
@@ -11513,7 +11513,7 @@
 .icon-1F471-1F3FB-200D-2642-FE0F,
 .icon-1F471-1F3FC-200D-2640-FE0F,
 .icon-1F471-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -960px;
   width: 40px;
   height: 40px;
@@ -11538,7 +11538,7 @@
 .icon-1F471-1F3FD,
 .icon-1F471-1F3FD-200D-2640-FE0F,
 .icon-1F471-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -960px;
   width: 40px;
   height: 40px;
@@ -11563,7 +11563,7 @@
 .icon-1F471-1F3FE-200D-2640-FE0F,
 .icon-1F471-1F3FE-200D-2642-FE0F,
 .icon-1F471-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -960px;
   width: 40px;
   height: 40px;
@@ -11589,7 +11589,7 @@
 .icon-1F471-1F3FF-200D-2642-FE0F,
 .icon-1F471-200D-2640-FE0F,
 .icon-1F471-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -960px;
   width: 40px;
   height: 40px;
@@ -11622,7 +11622,7 @@
 .icon-1F472-1F3FD,
 .icon-1F472-1F3FE,
 .icon-1F472-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -120px;
   width: 40px;
   height: 40px;
@@ -11654,7 +11654,7 @@
 .icon-1F473-1F3FB,
 .icon-1F473-1F3FB-200D-2640-FE0F,
 .icon-1F473-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -320px;
   width: 40px;
   height: 40px;
@@ -11679,7 +11679,7 @@
 .icon-1F473-1F3FC-200D-2640-FE0F,
 .icon-1F473-1F3FC-200D-2642-FE0F,
 .icon-1F473-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -480px;
   width: 40px;
   height: 40px;
@@ -11704,7 +11704,7 @@
 .icon-1F473-1F3FD-200D-2642-FE0F,
 .icon-1F473-1F3FE-200D-2640-FE0F,
 .icon-1F473-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -640px;
   width: 40px;
   height: 40px;
@@ -11729,7 +11729,7 @@
 .icon-1F473-1F3FF,
 .icon-1F473-1F3FF-200D-2640-FE0F,
 .icon-1F473-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -800px;
   width: 40px;
   height: 40px;
@@ -11755,7 +11755,7 @@
 .icon-1F473-200D-2642-FE0F,
 .icon-1F474-1F3FB,
 .icon-1F474-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -960px;
   width: 40px;
   height: 40px;
@@ -11789,7 +11789,7 @@
 .icon-1F474-1F3FF,
 .icon-1F475-1F3FB,
 .icon-1F475-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -1000px;
   width: 40px;
   height: 40px;
@@ -11831,7 +11831,7 @@
 .icon-1F475-1F3FF,
 .icon-1F476-1F3FB,
 .icon-1F476-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1000px;
   width: 40px;
   height: 40px;
@@ -11872,7 +11872,7 @@
 .icon-1F476-1F3FE,
 .icon-1F476-1F3FF,
 .icon-1F477-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -1000px;
   width: 40px;
   height: 40px;
@@ -11904,7 +11904,7 @@
 .icon-1F477-1F3FB-200D-2642-FE0F,
 .icon-1F477-1F3FC-200D-2640-FE0F,
 .icon-1F477-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -1000px;
   width: 40px;
   height: 40px;
@@ -11929,7 +11929,7 @@
 .icon-1F477-1F3FD,
 .icon-1F477-1F3FD-200D-2640-FE0F,
 .icon-1F477-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1000px;
   width: 40px;
   height: 40px;
@@ -11954,7 +11954,7 @@
 .icon-1F477-1F3FE-200D-2640-FE0F,
 .icon-1F477-1F3FE-200D-2642-FE0F,
 .icon-1F477-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -120px;
   width: 40px;
   height: 40px;
@@ -11980,7 +11980,7 @@
 .icon-1F477-1F3FF-200D-2642-FE0F,
 .icon-1F477-200D-2640-FE0F,
 .icon-1F477-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -280px;
   width: 40px;
   height: 40px;
@@ -12014,7 +12014,7 @@
 .icon-1F478-1F3FD,
 .icon-1F478-1F3FE,
 .icon-1F478-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -480px;
   width: 40px;
   height: 40px;
@@ -12055,7 +12055,7 @@
 .icon-1F47C-1F3FD,
 .icon-1F47C-1F3FE,
 .icon-1F47C-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -720px;
   width: 40px;
   height: 40px;
@@ -12087,7 +12087,7 @@
 .icon-1F481-1F3FB,
 .icon-1F481-1F3FB-200D-2640-FE0F,
 .icon-1F481-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -920px;
   width: 40px;
   height: 40px;
@@ -12112,7 +12112,7 @@
 .icon-1F481-1F3FC-200D-2640-FE0F,
 .icon-1F481-1F3FC-200D-2642-FE0F,
 .icon-1F481-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -1040px;
   width: 40px;
   height: 40px;
@@ -12137,7 +12137,7 @@
 .icon-1F481-1F3FD-200D-2642-FE0F,
 .icon-1F481-1F3FE-200D-2640-FE0F,
 .icon-1F481-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -1040px;
   width: 40px;
   height: 40px;
@@ -12162,7 +12162,7 @@
 .icon-1F481-1F3FF,
 .icon-1F481-1F3FF-200D-2640-FE0F,
 .icon-1F481-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -1040px;
   width: 40px;
   height: 40px;
@@ -12187,7 +12187,7 @@
 .icon-1F481-200D-2640-FE0F,
 .icon-1F481-200D-2642-FE0F,
 .icon-1F482-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -1040px;
   width: 40px;
   height: 40px;
@@ -12212,7 +12212,7 @@
 .icon-1F482-1F3FB-200D-2642-FE0F,
 .icon-1F482-1F3FC-200D-2640-FE0F,
 .icon-1F482-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -1040px;
   width: 40px;
   height: 40px;
@@ -12237,7 +12237,7 @@
 .icon-1F482-1F3FD,
 .icon-1F482-1F3FD-200D-2640-FE0F,
 .icon-1F482-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -1040px;
   width: 40px;
   height: 40px;
@@ -12262,7 +12262,7 @@
 .icon-1F482-1F3FE-200D-2640-FE0F,
 .icon-1F482-1F3FE-200D-2642-FE0F,
 .icon-1F482-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1040px;
   width: 40px;
   height: 40px;
@@ -12288,7 +12288,7 @@
 .icon-1F482-1F3FF-200D-2642-FE0F,
 .icon-1F482-200D-2640-FE0F,
 .icon-1F482-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -80px;
   width: 40px;
   height: 40px;
@@ -12322,7 +12322,7 @@
 .icon-1F483-1F3FD,
 .icon-1F483-1F3FE,
 .icon-1F483-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -280px;
   width: 40px;
   height: 40px;
@@ -12363,7 +12363,7 @@
 .icon-1F485-1F3FD,
 .icon-1F485-1F3FE,
 .icon-1F485-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -520px;
   width: 40px;
   height: 40px;
@@ -12395,7 +12395,7 @@
 .icon-1F486-1F3FB,
 .icon-1F486-1F3FB-200D-2640-FE0F,
 .icon-1F486-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -720px;
   width: 40px;
   height: 40px;
@@ -12420,7 +12420,7 @@
 .icon-1F486-1F3FC-200D-2640-FE0F,
 .icon-1F486-1F3FC-200D-2642-FE0F,
 .icon-1F486-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -880px;
   width: 40px;
   height: 40px;
@@ -12445,7 +12445,7 @@
 .icon-1F486-1F3FD-200D-2642-FE0F,
 .icon-1F486-1F3FE-200D-2640-FE0F,
 .icon-1F486-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -1040px;
   width: 40px;
   height: 40px;
@@ -12470,7 +12470,7 @@
 .icon-1F486-1F3FF,
 .icon-1F486-1F3FF-200D-2640-FE0F,
 .icon-1F486-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -120px -1080px;
   width: 40px;
   height: 40px;
@@ -12495,7 +12495,7 @@
 .icon-1F486-200D-2640-FE0F,
 .icon-1F486-200D-2642-FE0F,
 .icon-1F487-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -280px -1080px;
   width: 40px;
   height: 40px;
@@ -12520,7 +12520,7 @@
 .icon-1F487-1F3FB-200D-2642-FE0F,
 .icon-1F487-1F3FC-200D-2640-FE0F,
 .icon-1F487-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -440px -1080px;
   width: 40px;
   height: 40px;
@@ -12545,7 +12545,7 @@
 .icon-1F487-1F3FD,
 .icon-1F487-1F3FD-200D-2640-FE0F,
 .icon-1F487-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -600px -1080px;
   width: 40px;
   height: 40px;
@@ -12570,7 +12570,7 @@
 .icon-1F487-1F3FE-200D-2640-FE0F,
 .icon-1F487-1F3FE-200D-2642-FE0F,
 .icon-1F487-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -1080px;
   width: 40px;
   height: 40px;
@@ -12596,7 +12596,7 @@
 .icon-1F487-1F3FF-200D-2642-FE0F,
 .icon-1F487-200D-2640-FE0F,
 .icon-1F487-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -1080px;
   width: 40px;
   height: 40px;
@@ -12630,7 +12630,7 @@
 .icon-1F4AA-1F3FC,
 .icon-1F4AA-1F3FD,
 .icon-1F4AA-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px 0;
   width: 40px;
   height: 40px;
@@ -12672,7 +12672,7 @@
 .icon-1F574-1F3FC,
 .icon-1F574-1F3FD,
 .icon-1F574-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -240px;
   width: 40px;
   height: 40px;
@@ -12712,7 +12712,7 @@
 .icon-1F574-1F3FF,
 .icon-1F575-1F3FB-200D-2640-FE0F,
 .icon-1F575-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -480px;
   width: 40px;
   height: 40px;
@@ -12737,7 +12737,7 @@
 .icon-1F575-1F3FC,
 .icon-1F575-1F3FC-200D-2640-FE0F,
 .icon-1F575-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -640px;
   width: 40px;
   height: 40px;
@@ -12762,7 +12762,7 @@
 .icon-1F575-1F3FD-200D-2640-FE0F,
 .icon-1F575-1F3FD-200D-2642-FE0F,
 .icon-1F575-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -800px;
   width: 40px;
   height: 40px;
@@ -12787,7 +12787,7 @@
 .icon-1F575-1F3FE-200D-2642-FE0F,
 .icon-1F575-1F3FF-200D-2640-FE0F,
 .icon-1F575-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -960px;
   width: 40px;
   height: 40px;
@@ -12812,7 +12812,7 @@
 .icon-1F575-1F3FF,
 .icon-1F575-FE0F-200D-2640-FE0F,
 .icon-1F575-FE0F-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -1120px;
   width: 40px;
   height: 40px;
@@ -12839,7 +12839,7 @@
 .icon-1F57A-1F3FD,
 .icon-1F57A-1F3FE,
 .icon-1F57A-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -1120px;
   width: 40px;
   height: 40px;
@@ -12881,7 +12881,7 @@
 .icon-1F590-1F3FD,
 .icon-1F590-1F3FE,
 .icon-1F590-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1120px;
   width: 40px;
   height: 40px;
@@ -12923,7 +12923,7 @@
 .icon-1F595-1F3FD,
 .icon-1F595-1F3FE,
 .icon-1F595-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -1120px;
   width: 40px;
   height: 40px;
@@ -12965,7 +12965,7 @@
 .icon-1F596-1F3FD,
 .icon-1F596-1F3FE,
 .icon-1F596-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1120px;
   width: 40px;
   height: 40px;
@@ -13005,7 +13005,7 @@
 .icon-1F645-1F3FB,
 .icon-1F645-1F3FB-200D-2640-FE0F,
 .icon-1F645-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -1120px;
   width: 40px;
   height: 40px;
@@ -13030,7 +13030,7 @@
 .icon-1F645-1F3FC-200D-2640-FE0F,
 .icon-1F645-1F3FC-200D-2642-FE0F,
 .icon-1F645-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -120px;
   width: 40px;
   height: 40px;
@@ -13055,7 +13055,7 @@
 .icon-1F645-1F3FD-200D-2642-FE0F,
 .icon-1F645-1F3FE-200D-2640-FE0F,
 .icon-1F645-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -280px;
   width: 40px;
   height: 40px;
@@ -13080,7 +13080,7 @@
 .icon-1F645-1F3FF,
 .icon-1F645-1F3FF-200D-2640-FE0F,
 .icon-1F645-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -440px;
   width: 40px;
   height: 40px;
@@ -13105,7 +13105,7 @@
 .icon-1F645-200D-2640-FE0F,
 .icon-1F645-200D-2642-FE0F,
 .icon-1F646-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -600px;
   width: 40px;
   height: 40px;
@@ -13130,7 +13130,7 @@
 .icon-1F646-1F3FB-200D-2642-FE0F,
 .icon-1F646-1F3FC-200D-2640-FE0F,
 .icon-1F646-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -760px;
   width: 40px;
   height: 40px;
@@ -13155,7 +13155,7 @@
 .icon-1F646-1F3FD,
 .icon-1F646-1F3FD-200D-2640-FE0F,
 .icon-1F646-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -920px;
   width: 40px;
   height: 40px;
@@ -13180,7 +13180,7 @@
 .icon-1F646-1F3FE-200D-2640-FE0F,
 .icon-1F646-1F3FE-200D-2642-FE0F,
 .icon-1F646-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -1080px;
   width: 40px;
   height: 40px;
@@ -13205,7 +13205,7 @@
 .icon-1F646-1F3FF-200D-2642-FE0F,
 .icon-1F646-200D-2640-FE0F,
 .icon-1F646-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -1160px;
   width: 40px;
   height: 40px;
@@ -13230,7 +13230,7 @@
 .icon-1F647-1F3FB,
 .icon-1F647-1F3FB-200D-2640-FE0F,
 .icon-1F647-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -1160px;
   width: 40px;
   height: 40px;
@@ -13255,7 +13255,7 @@
 .icon-1F647-1F3FC-200D-2640-FE0F,
 .icon-1F647-1F3FC-200D-2642-FE0F,
 .icon-1F647-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1160px;
   width: 40px;
   height: 40px;
@@ -13280,7 +13280,7 @@
 .icon-1F647-1F3FD-200D-2642-FE0F,
 .icon-1F647-1F3FE-200D-2640-FE0F,
 .icon-1F647-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1160px;
   width: 40px;
   height: 40px;
@@ -13305,7 +13305,7 @@
 .icon-1F647-1F3FF,
 .icon-1F647-1F3FF-200D-2640-FE0F,
 .icon-1F647-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -1160px;
   width: 40px;
   height: 40px;
@@ -13330,7 +13330,7 @@
 .icon-1F647-200D-2640-FE0F,
 .icon-1F647-200D-2642-FE0F,
 .icon-1F64B-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1160px;
   width: 40px;
   height: 40px;
@@ -13355,7 +13355,7 @@
 .icon-1F64B-1F3FB-200D-2642-FE0F,
 .icon-1F64B-1F3FC-200D-2640-FE0F,
 .icon-1F64B-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -1160px;
   width: 40px;
   height: 40px;
@@ -13380,7 +13380,7 @@
 .icon-1F64B-1F3FD,
 .icon-1F64B-1F3FD-200D-2640-FE0F,
 .icon-1F64B-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px 0;
   width: 40px;
   height: 40px;
@@ -13405,7 +13405,7 @@
 .icon-1F64B-1F3FE-200D-2640-FE0F,
 .icon-1F64B-1F3FE-200D-2642-FE0F,
 .icon-1F64B-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -160px;
   width: 40px;
   height: 40px;
@@ -13431,7 +13431,7 @@
 .icon-1F64B-1F3FF-200D-2642-FE0F,
 .icon-1F64B-200D-2640-FE0F,
 .icon-1F64B-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -320px;
   width: 40px;
   height: 40px;
@@ -13464,7 +13464,7 @@
 .icon-1F64C-1F3FD,
 .icon-1F64C-1F3FE,
 .icon-1F64C-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -520px;
   width: 40px;
   height: 40px;
@@ -13496,7 +13496,7 @@
 .icon-1F64D-1F3FB,
 .icon-1F64D-1F3FB-200D-2640-FE0F,
 .icon-1F64D-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -720px;
   width: 40px;
   height: 40px;
@@ -13521,7 +13521,7 @@
 .icon-1F64D-1F3FC-200D-2640-FE0F,
 .icon-1F64D-1F3FC-200D-2642-FE0F,
 .icon-1F64D-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -880px;
   width: 40px;
   height: 40px;
@@ -13546,7 +13546,7 @@
 .icon-1F64D-1F3FD-200D-2642-FE0F,
 .icon-1F64D-1F3FE-200D-2640-FE0F,
 .icon-1F64D-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -1040px;
   width: 40px;
   height: 40px;
@@ -13571,7 +13571,7 @@
 .icon-1F64D-1F3FF,
 .icon-1F64D-1F3FF-200D-2640-FE0F,
 .icon-1F64D-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -1200px;
   width: 40px;
   height: 40px;
@@ -13596,7 +13596,7 @@
 .icon-1F64D-200D-2640-FE0F,
 .icon-1F64D-200D-2642-FE0F,
 .icon-1F64E-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -1200px;
   width: 40px;
   height: 40px;
@@ -13621,7 +13621,7 @@
 .icon-1F64E-1F3FB-200D-2642-FE0F,
 .icon-1F64E-1F3FC-200D-2640-FE0F,
 .icon-1F64E-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -1200px;
   width: 40px;
   height: 40px;
@@ -13646,7 +13646,7 @@
 .icon-1F64E-1F3FD,
 .icon-1F64E-1F3FD-200D-2640-FE0F,
 .icon-1F64E-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -480px -1200px;
   width: 40px;
   height: 40px;
@@ -13671,7 +13671,7 @@
 .icon-1F64E-1F3FE-200D-2640-FE0F,
 .icon-1F64E-1F3FE-200D-2642-FE0F,
 .icon-1F64E-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -1200px;
   width: 40px;
   height: 40px;
@@ -13697,7 +13697,7 @@
 .icon-1F64E-1F3FF-200D-2642-FE0F,
 .icon-1F64E-200D-2640-FE0F,
 .icon-1F64E-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -1200px;
   width: 40px;
   height: 40px;
@@ -13730,7 +13730,7 @@
 .icon-1F64F-1F3FD,
 .icon-1F64F-1F3FE,
 .icon-1F64F-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1200px;
   width: 40px;
   height: 40px;
@@ -13762,7 +13762,7 @@
 .icon-1F6A3-1F3FB,
 .icon-1F6A3-1F3FB-200D-2640-FE0F,
 .icon-1F6A3-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -1200px;
   width: 40px;
   height: 40px;
@@ -13787,7 +13787,7 @@
 .icon-1F6A3-1F3FC-200D-2640-FE0F,
 .icon-1F6A3-1F3FC-200D-2642-FE0F,
 .icon-1F6A3-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -120px;
   width: 40px;
   height: 40px;
@@ -13812,7 +13812,7 @@
 .icon-1F6A3-1F3FD-200D-2642-FE0F,
 .icon-1F6A3-1F3FE-200D-2640-FE0F,
 .icon-1F6A3-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -280px;
   width: 40px;
   height: 40px;
@@ -13837,7 +13837,7 @@
 .icon-1F6A3-1F3FF,
 .icon-1F6A3-1F3FF-200D-2640-FE0F,
 .icon-1F6A3-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -440px;
   width: 40px;
   height: 40px;
@@ -13862,7 +13862,7 @@
 .icon-1F6A3-200D-2640-FE0F,
 .icon-1F6A3-200D-2642-FE0F,
 .icon-1F6B4-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -600px;
   width: 40px;
   height: 40px;
@@ -13887,7 +13887,7 @@
 .icon-1F6B4-1F3FB-200D-2642-FE0F,
 .icon-1F6B4-1F3FC-200D-2640-FE0F,
 .icon-1F6B4-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -760px;
   width: 40px;
   height: 40px;
@@ -13912,7 +13912,7 @@
 .icon-1F6B4-1F3FD,
 .icon-1F6B4-1F3FD-200D-2640-FE0F,
 .icon-1F6B4-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -920px;
   width: 40px;
   height: 40px;
@@ -13937,7 +13937,7 @@
 .icon-1F6B4-1F3FE-200D-2640-FE0F,
 .icon-1F6B4-1F3FE-200D-2642-FE0F,
 .icon-1F6B4-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -1080px;
   width: 40px;
   height: 40px;
@@ -13963,7 +13963,7 @@
 .icon-1F6B4-1F3FF-200D-2642-FE0F,
 .icon-1F6B4-200D-2640-FE0F,
 .icon-1F6B4-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: 0 -1240px;
   width: 40px;
   height: 40px;
@@ -13995,7 +13995,7 @@
 .icon-1F6B5-1F3FB-200D-2640-FE0F,
 .icon-1F6B5-1F3FB-200D-2642-FE0F,
 .icon-1F6B5-1F3FC-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -1240px;
   width: 40px;
   height: 40px;
@@ -14020,7 +14020,7 @@
 .icon-1F6B5-1F3FC-200D-2642-FE0F,
 .icon-1F6B5-1F3FD-200D-2640-FE0F,
 .icon-1F6B5-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -1240px;
   width: 40px;
   height: 40px;
@@ -14045,7 +14045,7 @@
 .icon-1F6B5-1F3FE,
 .icon-1F6B5-1F3FE-200D-2640-FE0F,
 .icon-1F6B5-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -1240px;
   width: 40px;
   height: 40px;
@@ -14070,7 +14070,7 @@
 .icon-1F6B5-1F3FF-200D-2640-FE0F,
 .icon-1F6B5-1F3FF-200D-2642-FE0F,
 .icon-1F6B5-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -1240px;
   width: 40px;
   height: 40px;
@@ -14095,7 +14095,7 @@
 .icon-1F6B5-200D-2642-FE0F,
 .icon-1F6B6-1F3FB-200D-2640-FE0F,
 .icon-1F6B6-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -1240px;
   width: 40px;
   height: 40px;
@@ -14120,7 +14120,7 @@
 .icon-1F6B6-1F3FC,
 .icon-1F6B6-1F3FC-200D-2640-FE0F,
 .icon-1F6B6-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1240px;
   width: 40px;
   height: 40px;
@@ -14145,7 +14145,7 @@
 .icon-1F6B6-1F3FD-200D-2640-FE0F,
 .icon-1F6B6-1F3FD-200D-2642-FE0F,
 .icon-1F6B6-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -1240px;
   width: 40px;
   height: 40px;
@@ -14170,7 +14170,7 @@
 .icon-1F6B6-1F3FE-200D-2642-FE0F,
 .icon-1F6B6-1F3FF-200D-2640-FE0F,
 .icon-1F6B6-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -40px;
   width: 40px;
   height: 40px;
@@ -14196,7 +14196,7 @@
 .icon-1F6B6-200D-2640-FE0F,
 .icon-1F6B6-200D-2642-FE0F,
 .icon-1F6C0-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -200px;
   width: 40px;
   height: 40px;
@@ -14230,7 +14230,7 @@
 .icon-1F6C0-1F3FE,
 .icon-1F6C0-1F3FF,
 .icon-1F6CC-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -400px;
   width: 40px;
   height: 40px;
@@ -14272,7 +14272,7 @@
 .icon-1F6CC-1F3FE,
 .icon-1F6CC-1F3FF,
 .icon-1F90F-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -640px;
   width: 40px;
   height: 40px;
@@ -14314,7 +14314,7 @@
 .icon-1F90F-1F3FE,
 .icon-1F90F-1F3FF,
 .icon-1F918-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -880px;
   width: 40px;
   height: 40px;
@@ -14356,7 +14356,7 @@
 .icon-1F918-1F3FE,
 .icon-1F918-1F3FF,
 .icon-1F919-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -1120px;
   width: 40px;
   height: 40px;
@@ -14398,7 +14398,7 @@
 .icon-1F919-1F3FE,
 .icon-1F919-1F3FF,
 .icon-1F91A-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -1280px;
   width: 40px;
   height: 40px;
@@ -14440,7 +14440,7 @@
 .icon-1F91A-1F3FE,
 .icon-1F91A-1F3FF,
 .icon-1F91B-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -320px -1280px;
   width: 40px;
   height: 40px;
@@ -14482,7 +14482,7 @@
 .icon-1F91B-1F3FE,
 .icon-1F91B-1F3FF,
 .icon-1F91C-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1280px;
   width: 40px;
   height: 40px;
@@ -14524,7 +14524,7 @@
 .icon-1F91C-1F3FE,
 .icon-1F91C-1F3FF,
 .icon-1F91D {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -800px -1280px;
   width: 40px;
   height: 40px;
@@ -14566,7 +14566,7 @@
 .icon-1F91E-1F3FD,
 .icon-1F91E-1F3FE,
 .icon-1F91E-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -1280px;
   width: 40px;
   height: 40px;
@@ -14607,7 +14607,7 @@
 .icon-1F91F-1F3FD,
 .icon-1F91F-1F3FE,
 .icon-1F91F-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1280px -1280px;
   width: 40px;
   height: 40px;
@@ -14639,7 +14639,7 @@
 .icon-1F926-1F3FB,
 .icon-1F926-1F3FB-200D-2640-FE0F,
 .icon-1F926-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -160px;
   width: 40px;
   height: 40px;
@@ -14664,7 +14664,7 @@
 .icon-1F926-1F3FC-200D-2640-FE0F,
 .icon-1F926-1F3FC-200D-2642-FE0F,
 .icon-1F926-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -320px;
   width: 40px;
   height: 40px;
@@ -14689,7 +14689,7 @@
 .icon-1F926-1F3FD-200D-2642-FE0F,
 .icon-1F926-1F3FE-200D-2640-FE0F,
 .icon-1F926-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -480px;
   width: 40px;
   height: 40px;
@@ -14714,7 +14714,7 @@
 .icon-1F926-1F3FF,
 .icon-1F926-1F3FF-200D-2640-FE0F,
 .icon-1F926-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -640px;
   width: 40px;
   height: 40px;
@@ -14740,7 +14740,7 @@
 .icon-1F926-200D-2642-FE0F,
 .icon-1F930-1F3FB,
 .icon-1F930-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -800px;
   width: 40px;
   height: 40px;
@@ -14774,7 +14774,7 @@
 .icon-1F930-1F3FF,
 .icon-1F931-1F3FB,
 .icon-1F931-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1000px;
   width: 40px;
   height: 40px;
@@ -14816,7 +14816,7 @@
 .icon-1F931-1F3FF,
 .icon-1F932-1F3FB,
 .icon-1F932-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1240px;
   width: 40px;
   height: 40px;
@@ -14858,7 +14858,7 @@
 .icon-1F932-1F3FF,
 .icon-1F933-1F3FB,
 .icon-1F933-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -160px -1320px;
   width: 40px;
   height: 40px;
@@ -14900,7 +14900,7 @@
 .icon-1F933-1F3FF,
 .icon-1F934-1F3FB,
 .icon-1F934-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1320px;
   width: 40px;
   height: 40px;
@@ -14942,7 +14942,7 @@
 .icon-1F934-1F3FF,
 .icon-1F935-1F3FB,
 .icon-1F935-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -640px -1320px;
   width: 40px;
   height: 40px;
@@ -14984,7 +14984,7 @@
 .icon-1F935-1F3FF,
 .icon-1F936-1F3FB,
 .icon-1F936-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1320px;
   width: 40px;
   height: 40px;
@@ -15025,7 +15025,7 @@
 .icon-1F936-1F3FE,
 .icon-1F936-1F3FF,
 .icon-1F937-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -1320px;
   width: 40px;
   height: 40px;
@@ -15057,7 +15057,7 @@
 .icon-1F937-1F3FB-200D-2642-FE0F,
 .icon-1F937-1F3FC-200D-2640-FE0F,
 .icon-1F937-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1320px;
   width: 40px;
   height: 40px;
@@ -15082,7 +15082,7 @@
 .icon-1F937-1F3FD,
 .icon-1F937-1F3FD-200D-2640-FE0F,
 .icon-1F937-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -120px;
   width: 40px;
   height: 40px;
@@ -15107,7 +15107,7 @@
 .icon-1F937-1F3FE-200D-2640-FE0F,
 .icon-1F937-1F3FE-200D-2642-FE0F,
 .icon-1F937-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -280px;
   width: 40px;
   height: 40px;
@@ -15133,7 +15133,7 @@
 .icon-1F937-1F3FF-200D-2642-FE0F,
 .icon-1F937-200D-2640-FE0F,
 .icon-1F937-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -440px;
   width: 40px;
   height: 40px;
@@ -15165,7 +15165,7 @@
 .icon-1F938-1F3FB-200D-2640-FE0F,
 .icon-1F938-1F3FB-200D-2642-FE0F,
 .icon-1F938-1F3FC-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -640px;
   width: 40px;
   height: 40px;
@@ -15190,7 +15190,7 @@
 .icon-1F938-1F3FC-200D-2642-FE0F,
 .icon-1F938-1F3FD-200D-2640-FE0F,
 .icon-1F938-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -800px;
   width: 40px;
   height: 40px;
@@ -15215,7 +15215,7 @@
 .icon-1F938-1F3FE,
 .icon-1F938-1F3FE-200D-2640-FE0F,
 .icon-1F938-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -960px;
   width: 40px;
   height: 40px;
@@ -15240,7 +15240,7 @@
 .icon-1F938-1F3FF-200D-2640-FE0F,
 .icon-1F938-1F3FF-200D-2642-FE0F,
 .icon-1F938-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -1120px;
   width: 40px;
   height: 40px;
@@ -15265,7 +15265,7 @@
 .icon-1F938-200D-2642-FE0F,
 .icon-1F939-1F3FB-200D-2640-FE0F,
 .icon-1F939-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -1280px;
   width: 40px;
   height: 40px;
@@ -15290,7 +15290,7 @@
 .icon-1F939-1F3FC,
 .icon-1F939-1F3FC-200D-2640-FE0F,
 .icon-1F939-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -1360px;
   width: 40px;
   height: 40px;
@@ -15315,7 +15315,7 @@
 .icon-1F939-1F3FD-200D-2640-FE0F,
 .icon-1F939-1F3FD-200D-2642-FE0F,
 .icon-1F939-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -1360px;
   width: 40px;
   height: 40px;
@@ -15340,7 +15340,7 @@
 .icon-1F939-1F3FE-200D-2642-FE0F,
 .icon-1F939-1F3FF-200D-2640-FE0F,
 .icon-1F939-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1360px;
   width: 40px;
   height: 40px;
@@ -15366,7 +15366,7 @@
 .icon-1F939-200D-2640-FE0F,
 .icon-1F939-200D-2642-FE0F,
 .icon-1F93A {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1360px;
   width: 40px;
   height: 40px;
@@ -15398,7 +15398,7 @@
 .icon-1F93C-200D-2640-FE0F,
 .icon-1F93C-200D-2642-FE0F,
 .icon-1F93D-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -760px -1360px;
   width: 40px;
   height: 40px;
@@ -15423,7 +15423,7 @@
 .icon-1F93D-1F3FB-200D-2642-FE0F,
 .icon-1F93D-1F3FC-200D-2640-FE0F,
 .icon-1F93D-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -920px -1360px;
   width: 40px;
   height: 40px;
@@ -15448,7 +15448,7 @@
 .icon-1F93D-1F3FD,
 .icon-1F93D-1F3FD-200D-2640-FE0F,
 .icon-1F93D-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1080px -1360px;
   width: 40px;
   height: 40px;
@@ -15473,7 +15473,7 @@
 .icon-1F93D-1F3FE-200D-2640-FE0F,
 .icon-1F93D-1F3FE-200D-2642-FE0F,
 .icon-1F93D-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1240px -1360px;
   width: 40px;
   height: 40px;
@@ -15498,7 +15498,7 @@
 .icon-1F93D-1F3FF-200D-2642-FE0F,
 .icon-1F93D-200D-2640-FE0F,
 .icon-1F93D-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px 0;
   width: 40px;
   height: 40px;
@@ -15523,7 +15523,7 @@
 .icon-1F93E-1F3FB,
 .icon-1F93E-1F3FB-200D-2640-FE0F,
 .icon-1F93E-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -160px;
   width: 40px;
   height: 40px;
@@ -15548,7 +15548,7 @@
 .icon-1F93E-1F3FC-200D-2640-FE0F,
 .icon-1F93E-1F3FC-200D-2642-FE0F,
 .icon-1F93E-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -320px;
   width: 40px;
   height: 40px;
@@ -15573,7 +15573,7 @@
 .icon-1F93E-1F3FD-200D-2642-FE0F,
 .icon-1F93E-1F3FE-200D-2640-FE0F,
 .icon-1F93E-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -480px;
   width: 40px;
   height: 40px;
@@ -15598,7 +15598,7 @@
 .icon-1F93E-1F3FF,
 .icon-1F93E-1F3FF-200D-2640-FE0F,
 .icon-1F93E-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -640px;
   width: 40px;
   height: 40px;
@@ -15624,7 +15624,7 @@
 .icon-1F93E-200D-2642-FE0F,
 .icon-1F9B4,
 .icon-1F9B5-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -800px;
   width: 40px;
   height: 40px;
@@ -15658,7 +15658,7 @@
 .icon-1F9B5-1F3FE,
 .icon-1F9B5-1F3FF,
 .icon-1F9B6-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -1000px;
   width: 40px;
   height: 40px;
@@ -15700,7 +15700,7 @@
 .icon-1F9B6-1F3FE,
 .icon-1F9B6-1F3FF,
 .icon-1F9B7 {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -1240px;
   width: 40px;
   height: 40px;
@@ -15740,7 +15740,7 @@
 .icon-1F9B8-1F3FB-200D-2640-FE0F,
 .icon-1F9B8-1F3FB-200D-2642-FE0F,
 .icon-1F9B8-1F3FC-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -80px -1400px;
   width: 40px;
   height: 40px;
@@ -15765,7 +15765,7 @@
 .icon-1F9B8-1F3FC-200D-2642-FE0F,
 .icon-1F9B8-1F3FD-200D-2640-FE0F,
 .icon-1F9B8-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -1400px;
   width: 40px;
   height: 40px;
@@ -15790,7 +15790,7 @@
 .icon-1F9B8-1F3FE,
 .icon-1F9B8-1F3FE-200D-2640-FE0F,
 .icon-1F9B8-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1400px;
   width: 40px;
   height: 40px;
@@ -15815,7 +15815,7 @@
 .icon-1F9B8-1F3FF-200D-2640-FE0F,
 .icon-1F9B8-1F3FF-200D-2642-FE0F,
 .icon-1F9B8-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1400px;
   width: 40px;
   height: 40px;
@@ -15840,7 +15840,7 @@
 .icon-1F9B8-200D-2642-FE0F,
 .icon-1F9B9-1F3FB-200D-2640-FE0F,
 .icon-1F9B9-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -1400px;
   width: 40px;
   height: 40px;
@@ -15865,7 +15865,7 @@
 .icon-1F9B9-1F3FC,
 .icon-1F9B9-1F3FC-200D-2640-FE0F,
 .icon-1F9B9-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1400px;
   width: 40px;
   height: 40px;
@@ -15890,7 +15890,7 @@
 .icon-1F9B9-1F3FD-200D-2640-FE0F,
 .icon-1F9B9-1F3FD-200D-2642-FE0F,
 .icon-1F9B9-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -1400px;
   width: 40px;
   height: 40px;
@@ -15915,7 +15915,7 @@
 .icon-1F9B9-1F3FE-200D-2642-FE0F,
 .icon-1F9B9-1F3FF-200D-2640-FE0F,
 .icon-1F9B9-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -1400px;
   width: 40px;
   height: 40px;
@@ -15941,7 +15941,7 @@
 .icon-1F9B9-200D-2640-FE0F,
 .icon-1F9B9-200D-2642-FE0F,
 .icon-1F9BB-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -1400px;
   width: 40px;
   height: 40px;
@@ -15975,7 +15975,7 @@
 .icon-1F9BB-1F3FE,
 .icon-1F9BB-1F3FF,
 .icon-1F9BE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -120px;
   width: 40px;
   height: 40px;
@@ -16015,7 +16015,7 @@
 .icon-1F9CD-1F3FB,
 .icon-1F9CD-1F3FB-200D-2640-FE0F,
 .icon-1F9CD-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -360px;
   width: 40px;
   height: 40px;
@@ -16040,7 +16040,7 @@
 .icon-1F9CD-1F3FC-200D-2640-FE0F,
 .icon-1F9CD-1F3FC-200D-2642-FE0F,
 .icon-1F9CD-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -520px;
   width: 40px;
   height: 40px;
@@ -16065,7 +16065,7 @@
 .icon-1F9CD-1F3FD-200D-2642-FE0F,
 .icon-1F9CD-1F3FE-200D-2640-FE0F,
 .icon-1F9CD-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -680px;
   width: 40px;
   height: 40px;
@@ -16090,7 +16090,7 @@
 .icon-1F9CD-1F3FF,
 .icon-1F9CD-1F3FF-200D-2640-FE0F,
 .icon-1F9CD-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -840px;
   width: 40px;
   height: 40px;
@@ -16115,7 +16115,7 @@
 .icon-1F9CD-200D-2640-FE0F,
 .icon-1F9CD-200D-2642-FE0F,
 .icon-1F9CE-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -1000px;
   width: 40px;
   height: 40px;
@@ -16140,7 +16140,7 @@
 .icon-1F9CE-1F3FB-200D-2642-FE0F,
 .icon-1F9CE-1F3FC-200D-2640-FE0F,
 .icon-1F9CE-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -1160px;
   width: 40px;
   height: 40px;
@@ -16165,7 +16165,7 @@
 .icon-1F9CE-1F3FD,
 .icon-1F9CE-1F3FD-200D-2640-FE0F,
 .icon-1F9CE-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1440px -1320px;
   width: 40px;
   height: 40px;
@@ -16190,7 +16190,7 @@
 .icon-1F9CE-1F3FE-200D-2640-FE0F,
 .icon-1F9CE-1F3FE-200D-2642-FE0F,
 .icon-1F9CE-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -1440px;
   width: 40px;
   height: 40px;
@@ -16216,7 +16216,7 @@
 .icon-1F9CE-1F3FF-200D-2642-FE0F,
 .icon-1F9CE-200D-2640-FE0F,
 .icon-1F9CE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -1440px;
   width: 40px;
   height: 40px;
@@ -16248,7 +16248,7 @@
 .icon-1F9CF-1F3FB-200D-2640-FE0F,
 .icon-1F9CF-1F3FB-200D-2642-FE0F,
 .icon-1F9CF-1F3FC-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1440px;
   width: 40px;
   height: 40px;
@@ -16273,7 +16273,7 @@
 .icon-1F9CF-1F3FC-200D-2642-FE0F,
 .icon-1F9CF-1F3FD-200D-2640-FE0F,
 .icon-1F9CF-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1440px;
   width: 40px;
   height: 40px;
@@ -16298,7 +16298,7 @@
 .icon-1F9CF-1F3FE,
 .icon-1F9CF-1F3FE-200D-2640-FE0F,
 .icon-1F9CF-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -1440px;
   width: 40px;
   height: 40px;
@@ -16323,7 +16323,7 @@
 .icon-1F9CF-1F3FF-200D-2640-FE0F,
 .icon-1F9CF-1F3FF-200D-2642-FE0F,
 .icon-1F9CF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1440px;
   width: 40px;
   height: 40px;
@@ -16348,7 +16348,7 @@
 .icon-1F9CF-200D-2642-FE0F,
 .icon-1F9D1-1F3FB,
 .icon-1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1040px -1440px;
   width: 40px;
   height: 40px;
@@ -16372,7 +16372,7 @@
 .icon-1F9D1-1F3FC,
 .icon-1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB,
 .icon-1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1200px -1440px;
   width: 40px;
   height: 40px;
@@ -16389,7 +16389,7 @@
 
 .icon-1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB,
 .icon-1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1440px;
   width: 40px;
   height: 40px;
@@ -16402,7 +16402,7 @@
 .icon-1F9D1-1F3FD,
 .icon-1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD,
 .icon-1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1400px -1440px;
   width: 40px;
   height: 40px;
@@ -16419,7 +16419,7 @@
 
 .icon-1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC,
 .icon-1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -40px;
   width: 40px;
   height: 40px;
@@ -16432,7 +16432,7 @@
 .icon-1F9D1-1F3FE,
 .icon-1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE,
 .icon-1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -120px;
   width: 40px;
   height: 40px;
@@ -16449,7 +16449,7 @@
 
 .icon-1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC,
 .icon-1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -240px;
   width: 40px;
   height: 40px;
@@ -16461,7 +16461,7 @@
 
 .icon-1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE,
 .icon-1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -320px;
   width: 40px;
   height: 40px;
@@ -16476,7 +16476,7 @@
 .icon-1F9D1-200D-1F91D-200D-1F9D1,
 .icon-1F9D2-1F3FB,
 .icon-1F9D2-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -400px;
   width: 40px;
   height: 40px;
@@ -16510,7 +16510,7 @@
 .icon-1F9D2-1F3FF,
 .icon-1F9D3-1F3FB,
 .icon-1F9D3-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -600px;
   width: 40px;
   height: 40px;
@@ -16552,7 +16552,7 @@
 .icon-1F9D3-1F3FF,
 .icon-1F9D4-1F3FB,
 .icon-1F9D4-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -840px;
   width: 40px;
   height: 40px;
@@ -16594,7 +16594,7 @@
 .icon-1F9D4-1F3FF,
 .icon-1F9D5-1F3FB,
 .icon-1F9D5-1F3FC {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -1080px;
   width: 40px;
   height: 40px;
@@ -16635,7 +16635,7 @@
 .icon-1F9D5-1F3FE,
 .icon-1F9D5-1F3FF,
 .icon-1F9D6-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -1320px;
   width: 40px;
   height: 40px;
@@ -16667,7 +16667,7 @@
 .icon-1F9D6-1F3FB-200D-2642-FE0F,
 .icon-1F9D6-1F3FC-200D-2640-FE0F,
 .icon-1F9D6-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -1480px;
   width: 40px;
   height: 40px;
@@ -16692,7 +16692,7 @@
 .icon-1F9D6-1F3FD,
 .icon-1F9D6-1F3FD-200D-2640-FE0F,
 .icon-1F9D6-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -1480px;
   width: 40px;
   height: 40px;
@@ -16717,7 +16717,7 @@
 .icon-1F9D6-1F3FE-200D-2640-FE0F,
 .icon-1F9D6-1F3FE-200D-2642-FE0F,
 .icon-1F9D6-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -1480px;
   width: 40px;
   height: 40px;
@@ -16742,7 +16742,7 @@
 .icon-1F9D6-1F3FF-200D-2642-FE0F,
 .icon-1F9D6-200D-2640-FE0F,
 .icon-1F9D6-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -1480px;
   width: 40px;
   height: 40px;
@@ -16767,7 +16767,7 @@
 .icon-1F9D7-1F3FB,
 .icon-1F9D7-1F3FB-200D-2640-FE0F,
 .icon-1F9D7-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -1480px;
   width: 40px;
   height: 40px;
@@ -16792,7 +16792,7 @@
 .icon-1F9D7-1F3FC-200D-2640-FE0F,
 .icon-1F9D7-1F3FC-200D-2642-FE0F,
 .icon-1F9D7-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -1480px;
   width: 40px;
   height: 40px;
@@ -16817,7 +16817,7 @@
 .icon-1F9D7-1F3FD-200D-2642-FE0F,
 .icon-1F9D7-1F3FE-200D-2640-FE0F,
 .icon-1F9D7-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1480px;
   width: 40px;
   height: 40px;
@@ -16842,7 +16842,7 @@
 .icon-1F9D7-1F3FF,
 .icon-1F9D7-1F3FF-200D-2640-FE0F,
 .icon-1F9D7-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -1480px;
   width: 40px;
   height: 40px;
@@ -16867,7 +16867,7 @@
 .icon-1F9D7-200D-2640-FE0F,
 .icon-1F9D7-200D-2642-FE0F,
 .icon-1F9D8-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1480px;
   width: 40px;
   height: 40px;
@@ -16892,7 +16892,7 @@
 .icon-1F9D8-1F3FB-200D-2642-FE0F,
 .icon-1F9D8-1F3FC-200D-2640-FE0F,
 .icon-1F9D8-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -1480px;
   width: 40px;
   height: 40px;
@@ -16917,7 +16917,7 @@
 .icon-1F9D8-1F3FD,
 .icon-1F9D8-1F3FD-200D-2640-FE0F,
 .icon-1F9D8-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -120px;
   width: 40px;
   height: 40px;
@@ -16942,7 +16942,7 @@
 .icon-1F9D8-1F3FE-200D-2640-FE0F,
 .icon-1F9D8-1F3FE-200D-2642-FE0F,
 .icon-1F9D8-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -280px;
   width: 40px;
   height: 40px;
@@ -16967,7 +16967,7 @@
 .icon-1F9D8-1F3FF-200D-2642-FE0F,
 .icon-1F9D8-200D-2640-FE0F,
 .icon-1F9D8-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -440px;
   width: 40px;
   height: 40px;
@@ -16992,7 +16992,7 @@
 .icon-1F9D9-1F3FB,
 .icon-1F9D9-1F3FB-200D-2640-FE0F,
 .icon-1F9D9-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -600px;
   width: 40px;
   height: 40px;
@@ -17017,7 +17017,7 @@
 .icon-1F9D9-1F3FC-200D-2640-FE0F,
 .icon-1F9D9-1F3FC-200D-2642-FE0F,
 .icon-1F9D9-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -760px;
   width: 40px;
   height: 40px;
@@ -17042,7 +17042,7 @@
 .icon-1F9D9-1F3FD-200D-2642-FE0F,
 .icon-1F9D9-1F3FE-200D-2640-FE0F,
 .icon-1F9D9-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -920px;
   width: 40px;
   height: 40px;
@@ -17067,7 +17067,7 @@
 .icon-1F9D9-1F3FF,
 .icon-1F9D9-1F3FF-200D-2640-FE0F,
 .icon-1F9D9-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -1080px;
   width: 40px;
   height: 40px;
@@ -17092,7 +17092,7 @@
 .icon-1F9D9-200D-2640-FE0F,
 .icon-1F9D9-200D-2642-FE0F,
 .icon-1F9DA-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -1240px;
   width: 40px;
   height: 40px;
@@ -17117,7 +17117,7 @@
 .icon-1F9DA-1F3FB-200D-2642-FE0F,
 .icon-1F9DA-1F3FC-200D-2640-FE0F,
 .icon-1F9DA-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1520px -1400px;
   width: 40px;
   height: 40px;
@@ -17142,7 +17142,7 @@
 .icon-1F9DA-1F3FD,
 .icon-1F9DA-1F3FD-200D-2640-FE0F,
 .icon-1F9DA-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -1520px;
   width: 40px;
   height: 40px;
@@ -17167,7 +17167,7 @@
 .icon-1F9DA-1F3FE-200D-2640-FE0F,
 .icon-1F9DA-1F3FE-200D-2642-FE0F,
 .icon-1F9DA-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -200px -1520px;
   width: 40px;
   height: 40px;
@@ -17192,7 +17192,7 @@
 .icon-1F9DA-1F3FF-200D-2642-FE0F,
 .icon-1F9DA-200D-2640-FE0F,
 .icon-1F9DA-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -360px -1520px;
   width: 40px;
   height: 40px;
@@ -17217,7 +17217,7 @@
 .icon-1F9DB-1F3FB,
 .icon-1F9DB-1F3FB-200D-2640-FE0F,
 .icon-1F9DB-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -520px -1520px;
   width: 40px;
   height: 40px;
@@ -17242,7 +17242,7 @@
 .icon-1F9DB-1F3FC-200D-2640-FE0F,
 .icon-1F9DB-1F3FC-200D-2642-FE0F,
 .icon-1F9DB-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -680px -1520px;
   width: 40px;
   height: 40px;
@@ -17267,7 +17267,7 @@
 .icon-1F9DB-1F3FD-200D-2642-FE0F,
 .icon-1F9DB-1F3FE-200D-2640-FE0F,
 .icon-1F9DB-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -840px -1520px;
   width: 40px;
   height: 40px;
@@ -17292,7 +17292,7 @@
 .icon-1F9DB-1F3FF,
 .icon-1F9DB-1F3FF-200D-2640-FE0F,
 .icon-1F9DB-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1000px -1520px;
   width: 40px;
   height: 40px;
@@ -17317,7 +17317,7 @@
 .icon-1F9DB-200D-2640-FE0F,
 .icon-1F9DB-200D-2642-FE0F,
 .icon-1F9DC-1F3FB-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1160px -1520px;
   width: 40px;
   height: 40px;
@@ -17342,7 +17342,7 @@
 .icon-1F9DC-1F3FB-200D-2642-FE0F,
 .icon-1F9DC-1F3FC-200D-2640-FE0F,
 .icon-1F9DC-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1320px -1520px;
   width: 40px;
   height: 40px;
@@ -17367,7 +17367,7 @@
 .icon-1F9DC-1F3FD,
 .icon-1F9DC-1F3FD-200D-2640-FE0F,
 .icon-1F9DC-1F3FD-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1480px -1520px;
   width: 40px;
   height: 40px;
@@ -17392,7 +17392,7 @@
 .icon-1F9DC-1F3FE-200D-2640-FE0F,
 .icon-1F9DC-1F3FE-200D-2642-FE0F,
 .icon-1F9DC-1F3FF-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -80px;
   width: 40px;
   height: 40px;
@@ -17417,7 +17417,7 @@
 .icon-1F9DC-1F3FF-200D-2642-FE0F,
 .icon-1F9DC-200D-2640-FE0F,
 .icon-1F9DC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -240px;
   width: 40px;
   height: 40px;
@@ -17442,7 +17442,7 @@
 .icon-1F9DD-1F3FB,
 .icon-1F9DD-1F3FB-200D-2640-FE0F,
 .icon-1F9DD-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -400px;
   width: 40px;
   height: 40px;
@@ -17467,7 +17467,7 @@
 .icon-1F9DD-1F3FC-200D-2640-FE0F,
 .icon-1F9DD-1F3FC-200D-2642-FE0F,
 .icon-1F9DD-1F3FD-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -560px;
   width: 40px;
   height: 40px;
@@ -17492,7 +17492,7 @@
 .icon-1F9DD-1F3FD-200D-2642-FE0F,
 .icon-1F9DD-1F3FE-200D-2640-FE0F,
 .icon-1F9DD-1F3FE-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -720px;
   width: 40px;
   height: 40px;
@@ -17517,7 +17517,7 @@
 .icon-1F9DD-1F3FF,
 .icon-1F9DD-1F3FF-200D-2640-FE0F,
 .icon-1F9DD-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -880px;
   width: 40px;
   height: 40px;
@@ -17542,7 +17542,7 @@
 .icon-1F9DD-200D-2640-FE0F,
 .icon-1F9DD-200D-2642-FE0F,
 .icon-1F9DE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -1040px;
   width: 40px;
   height: 40px;
@@ -17567,7 +17567,7 @@
 .icon-1F9DE-200D-2642-FE0F,
 .icon-1F9DF-200D-2640-FE0F,
 .icon-1F9DF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -1200px;
   width: 40px;
   height: 40px;
@@ -17594,7 +17594,7 @@
 .icon-261D-1F3FC,
 .icon-261D-1F3FD,
 .icon-261D-1F3FE {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1560px -1360px;
   width: 40px;
   height: 40px;
@@ -17635,7 +17635,7 @@
 .icon-26F7,
 .icon-26F9-1F3FB-200D-2640-FE0F,
 .icon-26F9-1F3FB-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -40px -1560px;
   width: 40px;
   height: 40px;
@@ -17667,7 +17667,7 @@
 .icon-26F9-1F3FC,
 .icon-26F9-1F3FC-200D-2640-FE0F,
 .icon-26F9-1F3FC-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -240px -1560px;
   width: 40px;
   height: 40px;
@@ -17692,7 +17692,7 @@
 .icon-26F9-1F3FD-200D-2640-FE0F,
 .icon-26F9-1F3FD-200D-2642-FE0F,
 .icon-26F9-1F3FE-200D-2640-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -400px -1560px;
   width: 40px;
   height: 40px;
@@ -17717,7 +17717,7 @@
 .icon-26F9-1F3FE-200D-2642-FE0F,
 .icon-26F9-1F3FF-200D-2640-FE0F,
 .icon-26F9-1F3FF-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -560px -1560px;
   width: 40px;
   height: 40px;
@@ -17742,7 +17742,7 @@
 .icon-26F9-1F3FF,
 .icon-26F9-FE0F-200D-2640-FE0F,
 .icon-26F9-FE0F-200D-2642-FE0F {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -720px -1560px;
   width: 40px;
   height: 40px;
@@ -17769,7 +17769,7 @@
 .icon-270A-1F3FD,
 .icon-270A-1F3FE,
 .icon-270A-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -880px -1560px;
   width: 40px;
   height: 40px;
@@ -17811,7 +17811,7 @@
 .icon-270B-1F3FD,
 .icon-270B-1F3FE,
 .icon-270B-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1120px -1560px;
   width: 40px;
   height: 40px;
@@ -17853,7 +17853,7 @@
 .icon-270C-1F3FD,
 .icon-270C-1F3FE,
 .icon-270C-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1360px -1560px;
   width: 40px;
   height: 40px;
@@ -17895,7 +17895,7 @@
 .icon-270D-1F3FD,
 .icon-270D-1F3FE,
 .icon-270D-1F3FF {
-  background-image: url("images/sprites/people-body-icons-sprite.css");
+  background-image: url("../images/sprites/people-body-icons-sprite.png");
   background-position: -1600px 0;
   width: 40px;
   height: 40px;
@@ -17934,7 +17934,7 @@
 .icon-1F479,
 .icon-1F47A,
 .icon-1F47B {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -17963,7 +17963,7 @@
 .icon-1F48C,
 .icon-1F493,
 .icon-1F494 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -80px 0;
   width: 40px;
   height: 40px;
@@ -18026,7 +18026,7 @@
 .icon-1F49A,
 .icon-1F49B,
 .icon-1F49C {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: 0 -120px;
   width: 40px;
   height: 40px;
@@ -18089,7 +18089,7 @@
 .icon-1F4A4,
 .icon-1F4A5,
 .icon-1F4A6 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: 0 -160px;
   width: 40px;
   height: 40px;
@@ -18152,7 +18152,7 @@
 .icon-1F4AF,
 .icon-1F573,
 .icon-1F5A4 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -200px -120px;
   width: 40px;
   height: 40px;
@@ -18215,7 +18215,7 @@
 .icon-1F603,
 .icon-1F604,
 .icon-1F605 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -240px 0;
   width: 40px;
   height: 40px;
@@ -18278,7 +18278,7 @@
 .icon-1F60B,
 .icon-1F60C,
 .icon-1F60D {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -80px -240px;
   width: 40px;
   height: 40px;
@@ -18341,7 +18341,7 @@
 .icon-1F613,
 .icon-1F614,
 .icon-1F615 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -280px -120px;
   width: 40px;
   height: 40px;
@@ -18404,7 +18404,7 @@
 .icon-1F61B,
 .icon-1F61C,
 .icon-1F61D {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -160px -280px;
   width: 40px;
   height: 40px;
@@ -18467,7 +18467,7 @@
 .icon-1F623,
 .icon-1F624,
 .icon-1F625 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -320px -160px;
   width: 40px;
   height: 40px;
@@ -18530,7 +18530,7 @@
 .icon-1F62B,
 .icon-1F62C,
 .icon-1F62D {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -160px -320px;
   width: 40px;
   height: 40px;
@@ -18593,7 +18593,7 @@
 .icon-1F633,
 .icon-1F634,
 .icon-1F635 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -360px -120px;
   width: 40px;
   height: 40px;
@@ -18656,7 +18656,7 @@
 .icon-1F63B,
 .icon-1F63C,
 .icon-1F63D {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -80px -360px;
   width: 40px;
   height: 40px;
@@ -18719,7 +18719,7 @@
 .icon-1F643,
 .icon-1F644,
 .icon-1F648 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -400px 0;
   width: 40px;
   height: 40px;
@@ -18782,7 +18782,7 @@
 .icon-1F911,
 .icon-1F912,
 .icon-1F913 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -400px -320px;
   width: 40px;
   height: 40px;
@@ -18845,7 +18845,7 @@
 .icon-1F921,
 .icon-1F922,
 .icon-1F923 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -240px -400px;
   width: 40px;
   height: 40px;
@@ -18908,7 +18908,7 @@
 .icon-1F92A,
 .icon-1F92B,
 .icon-1F92C {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -440px -120px;
   width: 40px;
   height: 40px;
@@ -18971,7 +18971,7 @@
 .icon-1F973,
 .icon-1F974,
 .icon-1F975 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: 0 -440px;
   width: 40px;
   height: 40px;
@@ -19035,7 +19035,7 @@
 .icon-263A,
 .icon-2763,
 .icon-2764 {
-  background-image: url("images/sprites/smileys-emotion-icons-sprite.css");
+  background-image: url("../images/sprites/smileys-emotion-icons-sprite.png");
   background-position: -320px -440px;
   width: 40px;
   height: 40px;
@@ -19105,7 +19105,7 @@
 .icon-0030-FE0F-20E3,
 .icon-0031-FE0F-20E3,
 .icon-0032-FE0F-20E3 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -19138,7 +19138,7 @@
 .icon-0035-FE0F-20E3,
 .icon-0036-FE0F-20E3,
 .icon-0037-FE0F-20E3 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -80px -40px;
   width: 40px;
   height: 40px;
@@ -19173,7 +19173,7 @@
 .icon-1F170,
 .icon-1F171,
 .icon-1F17E {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -120px -40px;
   width: 40px;
   height: 40px;
@@ -19226,7 +19226,7 @@
 .icon-1F194,
 .icon-1F195,
 .icon-1F196 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -160px -40px;
   width: 40px;
   height: 40px;
@@ -19289,7 +19289,7 @@
 .icon-1F202,
 .icon-1F21A,
 .icon-1F22F {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -200px 0;
   width: 40px;
   height: 40px;
@@ -19352,7 +19352,7 @@
 .icon-1F237,
 .icon-1F238,
 .icon-1F239 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -120px -200px;
   width: 40px;
   height: 40px;
@@ -19415,7 +19415,7 @@
 .icon-1F4A0,
 .icon-1F4DB,
 .icon-1F4F3 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -240px -200px;
   width: 40px;
   height: 40px;
@@ -19478,7 +19478,7 @@
 .icon-1F502,
 .icon-1F503,
 .icon-1F504 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -280px 0;
   width: 40px;
   height: 40px;
@@ -19541,7 +19541,7 @@
 .icon-1F51B,
 .icon-1F51C,
 .icon-1F51D {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -40px -280px;
   width: 40px;
   height: 40px;
@@ -19604,7 +19604,7 @@
 .icon-1F523,
 .icon-1F524,
 .icon-1F52F {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -320px -40px;
   width: 40px;
   height: 40px;
@@ -19667,7 +19667,7 @@
 .icon-1F535,
 .icon-1F536,
 .icon-1F537 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -40px -320px;
   width: 40px;
   height: 40px;
@@ -19730,7 +19730,7 @@
 .icon-1F53D,
 .icon-1F549,
 .icon-1F54E {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -360px 0;
   width: 40px;
   height: 40px;
@@ -19793,7 +19793,7 @@
 .icon-1F6B1,
 .icon-1F6B3,
 .icon-1F6B7 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -360px -320px;
   width: 40px;
   height: 40px;
@@ -19856,7 +19856,7 @@
 .icon-1F6BE,
 .icon-1F6C2,
 .icon-1F6C3 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -280px -360px;
   width: 40px;
   height: 40px;
@@ -19919,7 +19919,7 @@
 .icon-1F7E2,
 .icon-1F7E3,
 .icon-1F7E4 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -400px -200px;
   width: 40px;
   height: 40px;
@@ -19982,7 +19982,7 @@
 .icon-1F7EA,
 .icon-1F7EB,
 .icon-203C {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -120px -400px;
   width: 40px;
   height: 40px;
@@ -20045,7 +20045,7 @@
 .icon-2196,
 .icon-2197,
 .icon-2198 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -440px 0;
   width: 40px;
   height: 40px;
@@ -20108,7 +20108,7 @@
 .icon-23EA,
 .icon-23EB,
 .icon-23EC {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -440px -320px;
   width: 40px;
   height: 40px;
@@ -20171,7 +20171,7 @@
 .icon-23FA,
 .icon-24C2,
 .icon-25AA {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -200px -440px;
   width: 40px;
   height: 40px;
@@ -20234,7 +20234,7 @@
 .icon-25FD,
 .icon-25FE,
 .icon-2611 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -480px -40px;
   width: 40px;
   height: 40px;
@@ -20297,7 +20297,7 @@
 .icon-262F,
 .icon-2638,
 .icon-2640 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -480px -360px;
   width: 40px;
   height: 40px;
@@ -20360,7 +20360,7 @@
 .icon-264C,
 .icon-264D,
 .icon-264E {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -200px -480px;
   width: 40px;
   height: 40px;
@@ -20423,7 +20423,7 @@
 .icon-267B,
 .icon-267E,
 .icon-267F {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -520px 0;
   width: 40px;
   height: 40px;
@@ -20486,7 +20486,7 @@
 .icon-26AB,
 .icon-26CE,
 .icon-26D4 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -520px -320px;
   width: 40px;
   height: 40px;
@@ -20549,7 +20549,7 @@
 .icon-2733,
 .icon-2734,
 .icon-2747 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -120px -520px;
   width: 40px;
   height: 40px;
@@ -20612,7 +20612,7 @@
 .icon-2757,
 .icon-2795,
 .icon-2796 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -440px -520px;
   width: 40px;
   height: 40px;
@@ -20675,7 +20675,7 @@
 .icon-2935,
 .icon-2B05,
 .icon-2B06 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -560px -200px;
   width: 40px;
   height: 40px;
@@ -20738,7 +20738,7 @@
 .icon-303D,
 .icon-3297,
 .icon-3299 {
-  background-image: url("images/sprites/symbols-icons-sprite.css");
+  background-image: url("../images/sprites/symbols-icons-sprite.png");
   background-position: -560px -520px;
   width: 40px;
   height: 40px;
@@ -20799,7 +20799,7 @@
 .icon-1F304,
 .icon-1F305,
 .icon-1F306 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: 0 0;
   width: 40px;
   height: 40px;
@@ -20852,7 +20852,7 @@
 .icon-1F30C,
 .icon-1F30D,
 .icon-1F30E {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -40px -80px;
   width: 40px;
   height: 40px;
@@ -20915,7 +20915,7 @@
 .icon-1F314,
 .icon-1F315,
 .icon-1F316 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -120px -120px;
   width: 40px;
   height: 40px;
@@ -20978,7 +20978,7 @@
 .icon-1F31C,
 .icon-1F31D,
 .icon-1F31E {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -120px -160px;
   width: 40px;
   height: 40px;
@@ -21041,7 +21041,7 @@
 .icon-1F326,
 .icon-1F327,
 .icon-1F328 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -40px -200px;
   width: 40px;
   height: 40px;
@@ -21104,7 +21104,7 @@
 .icon-1F3A1,
 .icon-1F3A2,
 .icon-1F3AA {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -240px -120px;
   width: 40px;
   height: 40px;
@@ -21167,7 +21167,7 @@
 .icon-1F3D7,
 .icon-1F3D8,
 .icon-1F3D9 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -200px -240px;
   width: 40px;
   height: 40px;
@@ -21230,7 +21230,7 @@
 .icon-1F3DF,
 .icon-1F3E0,
 .icon-1F3E1 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -280px -240px;
   width: 40px;
   height: 40px;
@@ -21293,7 +21293,7 @@
 .icon-1F3E8,
 .icon-1F3E9,
 .icon-1F3EA {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -280px -280px;
   width: 40px;
   height: 40px;
@@ -21356,7 +21356,7 @@
 .icon-1F488,
 .icon-1F492,
 .icon-1F4A7 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -320px -280px;
   width: 40px;
   height: 40px;
@@ -21419,7 +21419,7 @@
 .icon-1F550,
 .icon-1F551,
 .icon-1F552 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -280px -320px;
   width: 40px;
   height: 40px;
@@ -21482,7 +21482,7 @@
 .icon-1F558,
 .icon-1F559,
 .icon-1F55A {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -360px -240px;
   width: 40px;
   height: 40px;
@@ -21545,7 +21545,7 @@
 .icon-1F560,
 .icon-1F561,
 .icon-1F562 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -200px -360px;
   width: 40px;
   height: 40px;
@@ -21608,7 +21608,7 @@
 .icon-1F570,
 .icon-1F5FA,
 .icon-1F5FB {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -400px -120px;
   width: 40px;
   height: 40px;
@@ -21671,7 +21671,7 @@
 .icon-1F682,
 .icon-1F683,
 .icon-1F684 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -40px -400px;
   width: 40px;
   height: 40px;
@@ -21734,7 +21734,7 @@
 .icon-1F68A,
 .icon-1F68B,
 .icon-1F68C {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -360px -400px;
   width: 40px;
   height: 40px;
@@ -21797,7 +21797,7 @@
 .icon-1F692,
 .icon-1F693,
 .icon-1F694 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -440px -240px;
   width: 40px;
   height: 40px;
@@ -21860,7 +21860,7 @@
 .icon-1F69A,
 .icon-1F69B,
 .icon-1F69C {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -120px -440px;
   width: 40px;
   height: 40px;
@@ -21923,7 +21923,7 @@
 .icon-1F6A2,
 .icon-1F6A4,
 .icon-1F6A5 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -440px -440px;
   width: 40px;
   height: 40px;
@@ -21986,7 +21986,7 @@
 .icon-1F6D1,
 .icon-1F6D5,
 .icon-1F6E2 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -480px -280px;
   width: 40px;
   height: 40px;
@@ -22049,7 +22049,7 @@
 .icon-1F6EC,
 .icon-1F6F0,
 .icon-1F6F3 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -120px -480px;
   width: 40px;
   height: 40px;
@@ -22112,7 +22112,7 @@
 .icon-1F6FA,
 .icon-1F9BC,
 .icon-1F9BD {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -440px -480px;
   width: 40px;
   height: 40px;
@@ -22175,7 +22175,7 @@
 .icon-231A,
 .icon-231B,
 .icon-23F0 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -520px -240px;
   width: 40px;
   height: 40px;
@@ -22239,7 +22239,7 @@
 .icon-2603,
 .icon-2604,
 .icon-2614 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -40px -520px;
   width: 40px;
   height: 40px;
@@ -22314,7 +22314,7 @@
 .icon-26E9,
 .icon-26EA,
 .icon-26F0 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -400px -520px;
   width: 40px;
   height: 40px;
@@ -22389,7 +22389,7 @@
 .icon-2708,
 .icon-2744,
 .icon-2B50 {
-  background-image: url("images/sprites/travel-places-icons-sprite.css");
+  background-image: url("../images/sprites/travel-places-icons-sprite.png");
   background-position: -560px -200px;
   width: 40px;
   height: 40px;

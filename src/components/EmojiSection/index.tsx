@@ -7,10 +7,10 @@ import React, {
   SetStateAction,
   Suspense,
   useCallback
-} from "react";
+} from 'react';
 
-import { EmojiSectionType, SingleEmojiType } from "../../types";
-import LoadEmoji from "../LoadEmoji/LoadEmoji";
+import { EmojiSectionType, SingleEmojiType } from '../../types';
+import LoadEmoji from '../LoadEmoji/LoadEmoji';
 
 type EmojiSectionProps = {
   data: EmojiSectionType;
@@ -20,7 +20,7 @@ type EmojiSectionProps = {
   sectionRefs: Object;
 };
 
-const Emoji = lazy(() => import("../Emoji"));
+const Emoji = lazy(() => import('../Emoji'));
 
 const EmojiSection: React.FC<EmojiSectionProps> = ({
   data,
@@ -29,8 +29,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   sectionRefs
 }) => {
   const [filteredList, setFilteredList] = useState<Array<SingleEmojiType>>([]);
-  const [shouldLoad, setShouldLoad] = useState<Boolean>(false);
-  const categoryName = useMemo(() => data.category.split("-").join(" "), [
+  const categoryName = useMemo(() => data.category.split('-').join(' '), [
     data.category
   ]);
 
@@ -41,8 +40,10 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   useEffect(() => {
     if (searchTerm.length > 1 || searchTerm.length === 0) {
       setFilteredList(() => {
-        return data.emojis.filter(el =>
-          el.name.toLowerCase().includes(searchTerm)
+        return data.emojis.filter(
+          el =>
+            el.name.toLowerCase().includes(searchTerm) ||
+            el.tags.toLocaleLowerCase().includes(searchTerm)
         );
       });
     }
@@ -57,17 +58,17 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
     [setCurrentSection]
   );
 
-  const showSectionOnIntersection = (
-    entries: Array<IntersectionObserverEntry>,
-    observer: IntersectionObserver
-  ) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        setShouldLoad(true);
-        observer.disconnect();
-      }
-    });
-  };
+  // const showSectionOnIntersection = (
+  //   entries: Array<IntersectionObserverEntry>,
+  //   observer: IntersectionObserver
+  // ) => {
+  //   entries.forEach(entry => {
+  //     if (entry.isIntersecting) {
+  //       setShouldLoad(true);
+  //       observer.disconnect();
+  //     }
+  //   });
+  // };
   useEffect(() => {
     if (sectionRefs[data.category].current) {
       const observer = new IntersectionObserver(
@@ -93,17 +94,17 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
     setCurrentSectionOnIntersection
   ]);
 
-  useEffect(() => {
-    if (sectionRefs[data.category].current) {
-      const observer = new IntersectionObserver(showSectionOnIntersection, {
-        rootMargin: "100px 0px"
-      });
-      observer.observe(sectionRefs[data.category].current);
-      return () => {
-        observer.disconnect();
-      };
-    }
-  }, [categoryType, filteredList, data.category, sectionRefs]);
+  // useEffect(() => {
+  //   if (sectionRefs[data.category].current) {
+  //     const observer = new IntersectionObserver(showSectionOnIntersection, {
+  //       rootMargin: '100px 0px'
+  //     });
+  //     observer.observe(sectionRefs[data.category].current);
+  //     return () => {
+  //       observer.disconnect();
+  //     };
+  //   }
+  // }, [categoryType, filteredList, data.category, sectionRefs]);
 
   const renderEmojis = () => {
     return filteredList.map((el, i) => {

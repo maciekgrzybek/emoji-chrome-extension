@@ -1,5 +1,5 @@
-import React from "react";
-import { SECTION_TYPE } from "../../types";
+import React from 'react';
+import { SECTION_TYPE } from '../../types';
 
 type IconProps = {
   type: SECTION_TYPE;
@@ -16,10 +16,10 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
               cx="36"
               cy="36"
               r="29"
-              fill={active ? "#F4AA41" : "transparent"}
+              fill={active ? '#F4AA41' : 'transparent'}
             />
             <path
-              fill={active ? "#E27022" : "transparent"}
+              fill={active ? '#E27022' : 'transparent'}
               d="M50.7 11c4.8 5.2 7.8 12.1 7.8 19.8 0 16-13 29-29 29-5.4 0-10.4-1.5-14.7-4C20.1 61.4 27.7 65 36 65c16 0 29-13 29-29 0-10.7-5.7-20-14.3-25z"
             />
             <g
@@ -39,11 +39,11 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
             <path
-              fill={active ? "#F4AA41" : "transparent"}
+              fill={active ? '#F4AA41' : 'transparent'}
               d="M23.5 14.585l-4.5 1.75-7.25 8.5-4.5 10.75 2 5.25c1.255 3.792 3.523 7.184 7.25 10l2.5-3.333s3.822 7.71 10.738 8.96c0 0 10.262 1.936 15.595-.877 3.42-1.803 4.417-4.416 4.417-4.416l3.417-3.417 1.583 2.333 2.083-.083 5.417-7.25L64 37.336l-.167-4.5-2.333-5.5-4.833-7.417S54 15.002 48.5 16.002c0 0-6.5-4.833-11.833-4.083s-4.584-1.25-13.167 2.666z"
             />
             <path
-              fill={active ? "#EA5A47" : "transparent"}
+              fill={active ? '#EA5A47' : 'transparent'}
               d="M36 47.2521L32.9167 49.6688 30.4167 49.6688 30.3333 53.5021 31.0833 57.0021 32.1667 58.9188 35 60.4188 39.5833 59.8355 41.1667 58.0855 42.1667 53.8355 41.9167 49.8355 39.9167 50.0855z"
             />
             <path
@@ -96,7 +96,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
             <path
-              fill={active ? "#fff" : "transparent"}
+              fill={active ? '#fff' : 'transparent'}
               d="M6.84 25.478l19.85-9.489 6.47 13.533-19.85 9.489zm51.69 13.533l-19.848-9.489 6.47-13.533L65 25.478z"
             />
             <circle cx="20" cy="27.5" r="2.5" />
@@ -109,15 +109,15 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
               strokeWidth="2"
               d="M46 56L27 16M6.84 25.478l19.85-9.489 6.47 13.533-19.85 9.489zM25.841 56l19-40M58.53 39.011l-19.848-9.489 6.47-13.533L65 25.478z"
             />
-            <g fill={active ? "#d22f27" : "transparent"}>
+            <g fill={active ? '#d22f27' : 'transparent'}>
               <circle cx="20" cy="27.5" r="2.5" />
               <circle cx="51.841" cy="27.5" r="2.5" />
             </g>
           </svg>
         );
       case SECTION_TYPE.FOOD_DRINK:
-        const darkPurple = active ? "#8967aa" : "transparent";
-        const lightPurple = active ? "#b399c8" : "transparent";
+        const darkPurple = active ? '#8967aa' : 'transparent';
+        const lightPurple = active ? '#b399c8' : 'transparent';
         return (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
             <circle cx="24.5" cy="37" r="6" fill={darkPurple} />
@@ -168,7 +168,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
           </svg>
         );
       case SECTION_TYPE.OBJECTS:
-        const lightBlue = active ? "#61B2E4" : "transparent";
+        const lightBlue = active ? '#61B2E4' : 'transparent';
         return (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
             <path
@@ -184,7 +184,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
               d="M61 31.3289L51.1774 28.3289 51.1774 16.0208 64 22.0208z"
             />
             <path
-              fill={active ? "#92D3F5" : "transparent"}
+              fill={active ? '#92D3F5' : 'transparent'}
               d="M45.732 11.124s2.451 2.43-4.707 11.283l-3.209-5.165 4.505-4.846 2.32-2.662M27.437 9.64l2.008 2.749 4.512 4.853-3.209 5.165c-7.158-8.854-4.707-11.283-4.707-11.283"
             />
             <path
@@ -238,7 +238,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
             </g>
           </svg>
         );
-      case SECTION_TYPE.SMILEYS_PEOPLE:
+      case SECTION_TYPE.SMILEYS_EMOTION:
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -252,14 +252,14 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
               cx="35.4"
               cy="36.596"
               r="23"
-              fill={active ? "#FCEA2B" : "transparent"}
+              fill={active ? '#FCEA2B' : 'transparent'}
             />
             <path
-              fill={active ? "#FFF" : "transparent"}
+              fill={active ? '#FFF' : 'transparent'}
               d="M50.478 41.87c0 1.59-.29 3.11-.87 4.49-12.49 3.03-25.43.34-27.49-.13-.55-1.34-.83-2.81-.83-4.36h.11s14.8 3.59 28.89.07l.19-.07z"
             />
             <path
-              fill={active ? "#EA5A47" : "transparent"}
+              fill={active ? '#EA5A47' : 'transparent'}
               d="M49.608 46.36c-1.79 4.27-6.35 7.23-13.69 7.23-7.41 0-12.03-3.03-13.8-7.36 2.06.47 15 3.16 27.49.13z"
             />
             <g>
@@ -300,7 +300,7 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
             <path
-              fill={active ? "#EA5A47" : "transparent"}
+              fill={active ? '#EA5A47' : 'transparent'}
               d="M36 7C19.984 7 7 19.984 7 36s12.984 29 29 29 29-12.984 29-29S52.016 7 36 7zM13 36c0-5.075 1.647-9.764 4.432-13.568l32.136 32.136A22.896 22.896 0 0136 59c-12.703 0-23-10.297-23-23zm41.568 13.568L22.432 17.432A22.896 22.896 0 0136 13c12.703 0 23 10.297 23 23 0 5.075-1.648 9.764-4.432 13.568z"
             />
             <path
@@ -327,10 +327,10 @@ const Icon: React.FC<IconProps> = ({ type, active = false }) => {
                 cx="36"
                 cy="36"
                 r="28"
-                fill={active ? "#92D3F5" : "transparent"}
+                fill={active ? '#92D3F5' : 'transparent'}
               />
               <path
-                fill={active ? "#B1CC33" : "transparent"}
+                fill={active ? '#B1CC33' : 'transparent'}
                 d="M49.44 11.43c-.539.906-1.645 2.143-2.44 2.57-1.245.67-1.904.267-3 1-1.269.848-1.21 1.938-2 2-.802.063-.688-1.993-1-3-.452-1.458-.23-1.527-1-2-1.083-.666-3.212-1.05-5 0-.71.417-.75.682-3 4-1.71 2.522-2.188 3.11-2 4 .199.942.043 1.747 1 2 1.187.313 1.366-.272 2-1 1.328-1.525 2.358-3.783 3-4 .571-.193 2.066 1.35 2 3-.046 1.165-.852 1.922-2 3-.742.697-2.875 1.5-6 2-1.719.275-1.408.852-2.063 1.594-.842.955-.461 2.169-1.28 3.312-1.026 1.43-3.473 1.792-3.657 2.72-.157.79 1.96 1.358 3 1.374.85.013 1.064-.772 3-2 .74-.47 1.75-1.281 2.688-1.25.504.017 1.828.285 2.343.719.594.5-.156 1.844-.406 3.156s-2.897 1.865-3.854 2.02c-1.574.258-4.144-.522-5.604.938-1 1-1.116 1.766-1.167 3.417-.013.417.937 3.032 2 4 1.144 1.042 2.294-.836 4 0 1.746.855 2.493 2.729 3 4 .508 1.273.176 1.168 1 5 .415 1.927.32 1.12 1 4 .563 2.383.589 2.768 1 3 1.173.663 3.9-.816 5-3 .69-1.368.211-1.962 1-5 .393-1.512.59-2.268 1-3 1.733-3.086 4.883-3.126 5-5 .08-1.282-1.357-1.851-1-3 .342-1.1 1.81-1.06 2-2 .258-1.275-2.25-2.316-2-3 .282-.775 4.07-1.01 6 1 .64.666.498.978 2 4 1.384 2.785 1.764 3.043 2 3 .429-.078.322-1.135 1-3 .324-.892 1.093-3.006 2-3 .625.004.739 1.01 2 2 .71.558 1.79.88 2.347 1.038.428-1.945.653-3.965.653-6.038 0-10.632-5.925-19.88-14.653-24.62"
               />
             </g>

@@ -1,9 +1,13 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState } from 'react';
+import { CurrentEmoji } from '../types';
 
-const EmojiContext = createContext({ currentEmoji: "", setCurrentEmoji: null });
+const EmojiContext = createContext({
+  currentEmoji: null,
+  setCurrentEmoji: null
+});
 
 const EmojiProvider = ({ children }) => {
-  const [currentEmoji, setCurrentEmoji] = useState("");
+  const [currentEmoji, setCurrentEmoji] = useState<CurrentEmoji>(null);
   return (
     <EmojiContext.Provider value={{ currentEmoji, setCurrentEmoji }}>
       {children}
