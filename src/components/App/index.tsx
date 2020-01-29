@@ -1,4 +1,5 @@
 import React, { createRef, useState, useRef } from 'react';
+import ReactLazy from 'react-laz-y';
 
 import EmojiSections from '../EmojiSections';
 import Input from '../Input';
@@ -47,6 +48,7 @@ const App: React.FC = () => {
         <header className="fixed w-full">
           <div className="bg-primary p-6 flex flex-wrap">
             <div className="w-2/5 flex pr-8">
+              <ReactLazy>elo kurwa tutaj dawaj</ReactLazy>
               <img className="w-full" src={logo} alt="Emoji Picker logo" />
             </div>
             <div className="w-3/5">

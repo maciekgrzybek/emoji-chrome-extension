@@ -19,30 +19,35 @@ function listEmojis(done) {
   let rawData = fs.readFileSync('./src/openmoji.json');
   let emojisRaw = JSON.parse(rawData, 'utf8');
   let modifiedEmojis = emojisRaw.reduce((acc, curVal) => {
-    const correctCategoryObject = acc.find(el => el.category === curVal.group);
-    if (correctCategoryObject) {
-      correctCategoryObject.emojis.push({
-        code: curVal.hexcode,
-        name: curVal.annotation,
-        emoji: curVal.emoji,
-        tags: `${curVal.tags} ${curVal.openmoji_tags}`
-      });
-    } else {
-      acc = [
-        ...acc,
-        {
-          category: curVal.group,
-          emojis: [
-            {
-              code: curVal.hexcode,
-              name: curVal.annotation,
-              emoji: curVal.emoji,
-              tags: `${curVal.tags} ${curVal.openmoji_tags}`
-            }
-          ]
-        }
-      ];
+    if (curVal.annotation !== '') {
+      const correctCategoryObject = acc.find(
+        el => el.category === curVal.group
+      );
+      if (correctCategoryObject) {
+        correctCategoryObject.emojis.push({
+          code: curVal.hexcode,
+          name: curVal.annotation,
+          emoji: curVal.emoji,
+          tags: `${curVal.tags} ${curVal.openmoji_tags}`
+        });
+      } else {
+        acc = [
+          ...acc,
+          {
+            category: curVal.group,
+            emojis: [
+              {
+                code: curVal.hexcode,
+                name: curVal.annotation,
+                emoji: curVal.emoji,
+                tags: `${curVal.tags} ${curVal.openmoji_tags}`
+              }
+            ]
+          }
+        ];
+      }
     }
+
     return acc;
   }, []);
 
@@ -88,7 +93,7 @@ function downsizeEmojis() {
 }
 
 function buildSprites(done) {
-  const imagesPath = 'src/images/icons-optimized';
+  const imagesPath = 'src/images/icons-raw';
   const folders = getFolders(imagesPath);
 
   folders.map(folder => {
@@ -97,6 +102,8 @@ function buildSprites(done) {
         imgName: `${folder}-icons-sprite.png`,
         cssName: `${folder}-icons-sprite.css`,
         imgPath: `../images/sprites${folder}-icons-sprite.css`
+        // retinaImgName: `${folder}-icons-sprite@2x.png`,
+        // retinaSrcFilter: path.join(imagesPath, folder, '/*.png')
       })
     );
 
@@ -121,6 +128,6 @@ function concatSprites() {
     .pipe(gulp.dest('src/'));
 }
 
-gulp.task('sprite', gulp.series(listEmojis));
+gulp.task('sprite', gulp.series(buildSprites));
 
 // exports.sprite = gulp.series(buildSprites, concatSprites);
