@@ -56,7 +56,7 @@ const CopiedEmojis: React.FC = () => {
           return (
             <span
               aria-label={emoji.name}
-              className={`icon-${emoji.code} inline-flex`}
+              className={`icon-${emoji.code}-1x inline-flex`}
             />
           );
         })}

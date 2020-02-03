@@ -19,7 +19,12 @@ function listEmojis(done) {
   let rawData = fs.readFileSync('./src/openmoji.json');
   let emojisRaw = JSON.parse(rawData, 'utf8');
   let modifiedEmojis = emojisRaw.reduce((acc, curVal) => {
-    if (curVal.annotation !== '') {
+    if (
+      curVal.annotation !== '' &&
+      curVal.group !== 'component' &&
+      curVal.group !== 'extras-openmoji' &&
+      curVal.group !== 'extras-unicode' // TODO make sure that works
+    ) {
       const correctCategoryObject = acc.find(
         el => el.category === curVal.group
       );
@@ -59,6 +64,7 @@ function sortEmojis(done) {
   let emojisRaw = JSON.parse(rawData, 'utf8');
   fs.readdir('./src/images/icons-raw', (err, files) => {
     files.forEach(file => {
+      console.log(file);
       const emoji = emojisRaw.find(
         item =>
           item.hexcode ===
@@ -71,7 +77,20 @@ function sortEmojis(done) {
         fs.ensureDirSync(`./src/images/icons-optimized/${emoji.group}`);
         fs.copy(
           `./src/images/icons-raw/${file}`,
-          `./src/images/icons-optimized/${emoji.group}/${file}`,
+          `./src/images/icons-optimized/${emoji.group}/${
+            file.split('.')[0]
+          }-1x.${file.split('.')[1]}`,
+          err => {
+            if (err) return console.error(err);
+
+            console.log('Success!');
+          }
+        );
+        fs.copy(
+          `./src/images/icons-raw/${file}`,
+          `./src/images/icons-optimized/${emoji.group}/${
+            file.split('.')[0]
+          }-2x.${file.split('.')[1]}`,
           err => {
             if (err) return console.error(err);
 
@@ -86,14 +105,18 @@ function sortEmojis(done) {
 }
 
 function downsizeEmojis() {
-  return gulp
-    .src('src/images/icons-optimized/**/*.png')
+  gulp
+    .src('src/images/icons-optimized/**/*-1x.png')
     .pipe(imageResize({ width: 40, height: 40 }))
+    .pipe(gulp.dest('src/images/icons-optimized/'));
+  gulp
+    .src('src/images/icons-optimized/**/*-2x.png')
+    .pipe(imageResize({ width: 80, height: 80 }))
     .pipe(gulp.dest('src/images/icons-optimized/'));
 }
 
 function buildSprites(done) {
-  const imagesPath = 'src/images/icons-raw';
+  const imagesPath = 'src/images/icons-optimized';
   const folders = getFolders(imagesPath);
 
   folders.map(folder => {
@@ -101,9 +124,11 @@ function buildSprites(done) {
       spriteSmith({
         imgName: `${folder}-icons-sprite.png`,
         cssName: `${folder}-icons-sprite.css`,
-        imgPath: `../images/sprites${folder}-icons-sprite.css`
-        // retinaImgName: `${folder}-icons-sprite@2x.png`,
-        // retinaSrcFilter: path.join(imagesPath, folder, '/*.png')
+        // cssRetinaSpritesheetName: `../images/sprites/${folder}-icons-sprite-2x.css`,
+        imgPath: `../images/sprites/${folder}-icons-sprite.png`,
+        retinaImgName: `${folder}-icons-sprite2x.png`,
+        retinaImgPath: `../images/sprites/${folder}-icons-sprite2x.png`,
+        retinaSrcFilter: [path.join(imagesPath, folder, '/*-2x.png')]
       })
     );
 
@@ -128,6 +153,6 @@ function concatSprites() {
     .pipe(gulp.dest('src/'));
 }
 
-gulp.task('sprite', gulp.series(buildSprites));
+gulp.task('sprite', gulp.series(concatSprites));
 
 // exports.sprite = gulp.series(buildSprites, concatSprites);

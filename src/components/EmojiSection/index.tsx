@@ -29,6 +29,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   sectionRefs
 }) => {
   const [filteredList, setFilteredList] = useState<Array<SingleEmojiType>>([]);
+  const [shouldLoad, setShouldLoad] = useState(false);
   const categoryName = useMemo(() => data.category.split('-').join(' '), [
     data.category
   ]);
@@ -37,6 +38,18 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   const appHeight: number = parseInt(process.env.REACT_APP_APP_HEIGHT);
   const observerMargin: number = Math.floor(appHeight / 2);
 
+  const showSectionOnIntersection = (
+    entries: Array<IntersectionObserverEntry>,
+    observer: IntersectionObserver
+  ) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        console.log('now kurwa');
+        setShouldLoad(true);
+        observer.disconnect();
+      }
+    });
+  };
   useEffect(() => {
     if (searchTerm.length > 1 || searchTerm.length === 0) {
       setFilteredList(() => {
@@ -58,17 +71,6 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
     [setCurrentSection]
   );
 
-  // const showSectionOnIntersection = (
-  //   entries: Array<IntersectionObserverEntry>,
-  //   observer: IntersectionObserver
-  // ) => {
-  //   entries.forEach(entry => {
-  //     if (entry.isIntersecting) {
-  //       setShouldLoad(true);
-  //       observer.disconnect();
-  //     }
-  //   });
-  // };
   useEffect(() => {
     if (sectionRefs[data.category].current) {
       const observer = new IntersectionObserver(
@@ -94,17 +96,19 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
     setCurrentSectionOnIntersection
   ]);
 
-  // useEffect(() => {
-  //   if (sectionRefs[data.category].current) {
-  //     const observer = new IntersectionObserver(showSectionOnIntersection, {
-  //       rootMargin: '100px 0px'
-  //     });
-  //     observer.observe(sectionRefs[data.category].current);
-  //     return () => {
-  //       observer.disconnect();
-  //     };
-  //   }
-  // }, [categoryType, filteredList, data.category, sectionRefs]);
+  const calcHeight = () => Math.ceil(data.emojis.length / 8) * 40 + 20 + 30;
+
+  useEffect(() => {
+    if (sectionRefs[data.category].current) {
+      const observer = new IntersectionObserver(showSectionOnIntersection, {
+        rootMargin: '100px 0px'
+      });
+      observer.observe(sectionRefs[data.category].current);
+      return () => {
+        observer.disconnect();
+      };
+    }
+  }, [categoryType, filteredList, data.category, sectionRefs]);
 
   const renderEmojis = () => {
     return filteredList.map((el, i) => {
@@ -114,7 +118,9 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
           className="rounded hover:bg-gray-200 min-w-50 flex justify-center items-center"
         >
           <Suspense fallback={<LoadEmoji />}>
-            <Emoji emoji={el.emoji} name={el.name} code={el.code} />
+            {shouldLoad && (
+              <Emoji emoji={el.emoji} name={el.name} code={el.code} />
+            )}
           </Suspense>
         </li>
       );
@@ -127,6 +133,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
         className={`scroll-margin-header mb-5`}
         ref={sectionRefs[data.category]}
         id={data.category}
+        style={{ minHeight: shouldLoad ? 0 : calcHeight() }}
       >
         {filteredList.length > 0 && (
           <h2 className="font-semibold text-lg mb-2 uppercase">

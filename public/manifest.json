@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Emoji Library",
-  "description": "Emoji library based on emojis from open source project Openmoji - https://openmoji.org/",
-  "version": "1.0.0",
+  "name": "Emoji Picker",
+  "description": "Emoji picker library based on emojis from open source project Openmoji - https://openmoji.org/",
+  "version": "1.0.1",
   "author": "Maciek Grzybek - https://github.com/maciekgrzybek",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "See the emojis"
+    "default_title": "Get the emoji"
   },
   "icons": {
     "16": "icon.png",

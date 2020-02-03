@@ -7,6 +7,7 @@ import 'tippy.js/dist/tippy.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import './styles/sprite.css';
+export { ReactSVG as default } from 'react-svg';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
