@@ -8,9 +8,12 @@ import React, {
   Suspense,
   useCallback
 } from 'react';
+import { Collection } from 'react-virtualized';
+import 'react-virtualized/styles.css';
 
 import { EmojiSectionType, SingleEmojiType } from '../../types';
 import LoadEmoji from '../LoadEmoji/LoadEmoji';
+// import Emoji from '../Emoji';
 
 type EmojiSectionProps = {
   data: EmojiSectionType;
@@ -19,7 +22,7 @@ type EmojiSectionProps = {
   setCurrentSection: Dispatch<SetStateAction<string>>;
   sectionRefs: Object;
 };
-
+q
 const Emoji = lazy(() => import('../Emoji'));
 
 const EmojiSection: React.FC<EmojiSectionProps> = ({
@@ -30,6 +33,7 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
 }) => {
   const [filteredList, setFilteredList] = useState<Array<SingleEmojiType>>([]);
   const [shouldLoad, setShouldLoad] = useState(false);
+  const [row, setRow] = useState(0);
   const categoryName = useMemo(() => data.category.split('-').join(' '), [
     data.category
   ]);
@@ -127,20 +131,68 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
     });
   };
 
+  function cellRenderer({ index, key, style }) {
+    return (
+      <div
+        key={key}
+        style={style}
+        className="rounded hover:bg-gray-200 min-w-50 flex justify-center items-center"
+      >
+        <Suspense fallback={<LoadEmoji />}>
+          {shouldLoad && (
+            <Emoji
+              emoji={filteredList[index].emoji}
+              name={filteredList[index].name}
+              code={filteredList[index].code}
+            />
+          )}
+        </Suspense>
+      </div>
+    );
+  }
+  let rowan = 0;
+  let column = 0;
+  function cellSizeAndPositionGetter({ index }) {
+    if (index % 8 === 0) {
+      rowan = rowan + 1;
+      column = 0;
+    } else {
+      column = column + 1;
+    }
+    return {
+      height: 40,
+      width: 56,
+      x: 56 * column,
+      y: 40 * rowan
+    };
+  }
+
   if (filteredList.length > 0) {
     return (
       <div
         className={`scroll-margin-header mb-5`}
         ref={sectionRefs[data.category]}
         id={data.category}
-        style={{ minHeight: shouldLoad ? 0 : calcHeight() }}
+        // style={{ minHeight: shouldLoad ? 0 : calcHeight() }}
       >
         {filteredList.length > 0 && (
           <h2 className="font-semibold text-lg mb-2 uppercase">
             {categoryName}
           </h2>
         )}
-        <ul className="flex flex-wrap">{renderEmojis()}</ul>
+        {/* <ul className="flex flex-wrap">{renderEmojis()}</ul> */}
+
+        <Collection
+          cellRenderer={cellRenderer}
+          columnCount={6}
+          columnWidth={56}
+          height={calcHeight()}
+          cellSizeAndPositionGetter={cellSizeAndPositionGetter}
+          cellCount={filteredList.length}
+          rowHeight={40}
+          width={452}
+          style={{ zIndex: -1 }}
+        />
       </div>
     );
   }
