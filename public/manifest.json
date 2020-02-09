@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Emoji Picker",
   "description": "Emoji picker library based on emojis from open source project Openmoji - https://openmoji.org/",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Maciek Grzybek - https://github.com/maciekgrzybek",
   "browser_action": {
     "default_popup": "index.html",
