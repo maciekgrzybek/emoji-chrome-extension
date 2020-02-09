@@ -27,3 +27,5 @@ yarn-error.log*
 src/images/icons-optimized
 src/images/icons-raw
 src/images/sprites
+
+src/styles/sprites
