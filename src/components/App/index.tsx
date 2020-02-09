@@ -2,7 +2,7 @@ import React, { createRef, useState } from 'react';
 
 import EmojiSections from '../EmojiSections';
 import Input from '../Input';
-import emojiList from '../../new-hope.json';
+import emojiList from '../../emoji-list.json';
 import useDebounce from '../../helpers/useDebounce';
 import CategoriesMenu from '../CategoriesMenu';
 import logo from '../../images/emoji-picker-logo.svg';
@@ -18,15 +18,6 @@ const App: React.FC = () => {
     refsObj[section.category] = createRef();
     return refsObj;
   }, {});
-
-  // const emojiListFiltered = useRef(
-  //   emojiList.filter(
-  //     section =>
-  //       section.category !== 'component' &&
-  //       section.category !== 'extras-openmoji' &&
-  //       section.category !== 'extras-unicode'
-  //   )
-  // );
 
   const scrollTo = (sectionName: string): Promise<boolean> => {
     return new Promise(resolve => {

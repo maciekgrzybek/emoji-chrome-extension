@@ -8,6 +8,7 @@ const merge = require('merge-stream');
 const imageResize = require('gulp-image-resize');
 const fs = require('fs-extra');
 const concatCss = require('gulp-concat-css');
+const tap = require('gulp-tap');
 
 function getFolders(dir) {
   return fs
@@ -15,7 +16,99 @@ function getFolders(dir) {
     .filter(item => fs.statSync(path.join(dir, item)).isDirectory());
 }
 
-function listEmojis(done) {
+gulp.task('sortEmojis', done => {
+  let rawData = fs.readFileSync('./src/openmoji.json');
+  let emojisRaw = JSON.parse(rawData, 'utf8');
+
+  return gulp
+    .src('./src/images/icons-raw/*.png')
+    .pipe(
+      tap(file => {
+        const fileName = path.basename(file.path, '.png');
+        const emoji = emojisRaw.find(item => item.hexcode === fileName);
+        if (
+          emoji &&
+          emoji.group &&
+          emoji.annotation !== '' &&
+          emoji.group !== 'component' &&
+          emoji.group !== 'extras-openmoji' &&
+          emoji.group !== 'extras-unicode'
+        ) {
+          fs.ensureDirSync(`./src/images/icons-optimized/${emoji.group}`);
+          fs.copy(
+            file.path,
+            `./src/images/icons-optimized/${emoji.group}/${fileName}-1x.png`,
+            err => {
+              if (err) return console.error(err);
+            }
+          );
+          fs.copy(
+            file.path,
+            `./src/images/icons-optimized/${emoji.group}/${fileName}-2x.png`,
+            err => {
+              if (err) return console.error(err);
+            }
+          );
+        }
+      })
+    )
+    .on('end', done);
+});
+
+gulp.task('downsizeEmojis', done => {
+  const s1 = gulp
+    .src('src/images/icons-optimized/**/*-1x.png')
+    .pipe(imageResize({ width: 40, height: 40 }))
+    .pipe(gulp.dest('src/images/icons-optimized/'));
+  const s2 = gulp
+    .src('src/images/icons-optimized/**/*-2x.png')
+    .pipe(imageResize({ width: 80, height: 80 }))
+    .pipe(gulp.dest('src/images/icons-optimized/'));
+  return merge(s1, s2);
+});
+
+gulp.task('buildSprites', done => {
+  const imagesPath = 'src/images/icons-optimized';
+  const folders = getFolders(imagesPath);
+
+  return folders.map(folder => {
+    const spriteData = gulp.src(path.join(imagesPath, folder, '/*.png')).pipe(
+      spriteSmith({
+        imgName: `${folder}-icons-sprite.png`,
+        cssName: `${folder}-icons-sprite.css`,
+        imgPath: `../images/sprites/${folder}-icons-sprite.png`,
+        retinaImgName: `${folder}-icons-sprite2x.png`,
+        retinaImgPath: `../images/sprites/${folder}-icons-sprite2x.png`,
+        retinaSrcFilter: [path.join(imagesPath, folder, '/*-2x.png')]
+      })
+    );
+
+    return Promise.all([
+      new Promise(resolve => {
+        spriteData.img
+          .pipe(buffer())
+          .pipe(imagemin())
+          .pipe(gulp.dest('src/images/sprites'))
+          .on('end', resolve);
+      }),
+      new Promise(resolve => {
+        spriteData.css
+          .pipe(csso())
+          .pipe(gulp.dest('src/styles/sprites'))
+          .on('end', resolve);
+      })
+    ]).then(() => done());
+  });
+});
+
+gulp.task('concatSprites', () => {
+  return gulp
+    .src('src/styles/sprites/**/*.css')
+    .pipe(concatCss('styles/sprite.css', { rebaseUrls: false }))
+    .pipe(gulp.dest('src/'));
+});
+
+gulp.task('listEmojis', done => {
   let rawData = fs.readFileSync('./src/openmoji.json');
   let emojisRaw = JSON.parse(rawData, 'utf8');
   let modifiedEmojis = emojisRaw.reduce((acc, curVal) => {
@@ -23,7 +116,7 @@ function listEmojis(done) {
       curVal.annotation !== '' &&
       curVal.group !== 'component' &&
       curVal.group !== 'extras-openmoji' &&
-      curVal.group !== 'extras-unicode' // TODO make sure that works
+      curVal.group !== 'extras-unicode'
     ) {
       const correctCategoryObject = acc.find(
         el => el.category === curVal.group
@@ -56,103 +149,17 @@ function listEmojis(done) {
     return acc;
   }, []);
 
-  fs.writeFileSync('./src/new-hope.json', JSON.stringify(modifiedEmojis));
+  fs.writeFileSync('./src/emoji-list.json', JSON.stringify(modifiedEmojis));
   done();
-}
-function sortEmojis(done) {
-  let rawData = fs.readFileSync('./src/openmoji.json');
-  let emojisRaw = JSON.parse(rawData, 'utf8');
-  fs.readdir('./src/images/icons-raw', (err, files) => {
-    files.forEach(file => {
-      console.log(file);
-      const emoji = emojisRaw.find(
-        item =>
-          item.hexcode ===
-          file
-            .split('.')
-            .slice(0, -1)
-            .join('.')
-      );
-      if (emoji && emoji.group) {
-        fs.ensureDirSync(`./src/images/icons-optimized/${emoji.group}`);
-        fs.copy(
-          `./src/images/icons-raw/${file}`,
-          `./src/images/icons-optimized/${emoji.group}/${
-            file.split('.')[0]
-          }-1x.${file.split('.')[1]}`,
-          err => {
-            if (err) return console.error(err);
+});
 
-            console.log('Success!');
-          }
-        );
-        fs.copy(
-          `./src/images/icons-raw/${file}`,
-          `./src/images/icons-optimized/${emoji.group}/${
-            file.split('.')[0]
-          }-2x.${file.split('.')[1]}`,
-          err => {
-            if (err) return console.error(err);
-
-            console.log('Success!');
-          }
-        );
-      } else {
-        console.log('Something went wrong');
-      }
-    });
-  });
-}
-
-function downsizeEmojis() {
-  gulp
-    .src('src/images/icons-optimized/**/*-1x.png')
-    .pipe(imageResize({ width: 40, height: 40 }))
-    .pipe(gulp.dest('src/images/icons-optimized/'));
-  gulp
-    .src('src/images/icons-optimized/**/*-2x.png')
-    .pipe(imageResize({ width: 80, height: 80 }))
-    .pipe(gulp.dest('src/images/icons-optimized/'));
-}
-
-function buildSprites(done) {
-  const imagesPath = 'src/images/icons-optimized';
-  const folders = getFolders(imagesPath);
-
-  folders.map(folder => {
-    const spriteData = gulp.src(path.join(imagesPath, folder, '/*.png')).pipe(
-      spriteSmith({
-        imgName: `${folder}-icons-sprite.png`,
-        cssName: `${folder}-icons-sprite.css`,
-        // cssRetinaSpritesheetName: `../images/sprites/${folder}-icons-sprite-2x.css`,
-        imgPath: `../images/sprites/${folder}-icons-sprite.png`,
-        retinaImgName: `${folder}-icons-sprite2x.png`,
-        retinaImgPath: `../images/sprites/${folder}-icons-sprite2x.png`,
-        retinaSrcFilter: [path.join(imagesPath, folder, '/*-2x.png')]
-      })
-    );
-
-    const imgStream = spriteData.img
-      .pipe(buffer())
-      .pipe(imagemin())
-      .pipe(gulp.dest('src/images/sprites'));
-
-    const cssStream = spriteData.css
-      .pipe(csso())
-      .pipe(gulp.dest('src/styles/sprites'));
-
-    merge(imgStream, cssStream);
-  });
-  done();
-}
-
-function concatSprites() {
-  return gulp
-    .src('src/styles/sprites/**/*.css')
-    .pipe(concatCss('styles/sprite.css'))
-    .pipe(gulp.dest('src/'));
-}
-
-gulp.task('sprite', gulp.series(concatSprites));
-
-// exports.sprite = gulp.series(buildSprites, concatSprites);
+gulp.task(
+  'sprite',
+  gulp.series(
+    'sortEmojis',
+    'downsizeEmojis',
+    'buildSprites',
+    'concatSprites',
+    'listEmojis'
+  )
+);

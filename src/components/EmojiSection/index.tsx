@@ -44,7 +44,6 @@ const EmojiSection: React.FC<EmojiSectionProps> = ({
   ) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        console.log('now kurwa');
         setShouldLoad(true);
         observer.disconnect();
       }
